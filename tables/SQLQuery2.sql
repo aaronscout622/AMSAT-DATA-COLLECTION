@@ -63,16 +63,15 @@ Short_Name varchar(50),
 
 CREATE TABLE HO107
 (NumberID int,
-Field varchar(50),
-Bits int,
-Unit varchar(50),
-Conversion int,
-Module varchar(50),
-Module_Num int,
-Module_Line int,
-Line_Type int,
-Short_Name varchar(50),
-) 
+timeofenter int
+)
+
+create table HO107max(NumberID int,Field varchar(50),Bits int,Unit varchar(50),Conversion int,Module varchar(50),Module_Num int,Module_Line int,Line_Type int,short_name varchar(50),details varchar(50))
+
+create table HO107min(NumberID int,Field varchar(50),Bits int,Unit varchar(50),Conversion int,Module varchar(50),Module_Num int,Module_Line int,Line_Type int,short_name varchar(50),details varchar(50))
+
+create table HO107rtt(NumberID int,Field varchar(50),Bits int,Unit varchar(50),Conversion int,Module varchar(50),Module_Num int,Module_Line int,Line_Type int,short_name varchar(50),details varchar(50))
+
 
 CREATE TABLE GolfT
 (NumberID int,
