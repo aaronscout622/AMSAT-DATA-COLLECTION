@@ -1,5 +1,7 @@
 This is the folder where we will break down the tables into the types of the satlites so we will be storing.
 
+We got the data from the AMSAT FoxTelem Github account (https://github.com/ac2cz/FoxTelem).
+
 There are 8  main tables. These are the abbreviated names (AO85, AO91, AO95, AO92, Fox1E, HO107, GolfT).
 
 We created a min, max, and rtt tables for each main table.
