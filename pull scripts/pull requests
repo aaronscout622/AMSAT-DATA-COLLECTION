@@ -1,1 +1,23 @@
+import mysql.connector
+
+satc = mysql.connector.connect (
+    host ="localhost",
+    user ="root",
+    password ="pass123",
+    database="testdata"   
+)
+#need to get database info
+satdata = satc.cursor()
+
+satc.excecute("select * from AO85,AO91,AO95,AO92,Fox1E,HO107,GolfT")
+#Unsure whether i need to pull all table meaning max min rtt aswell
+#this should pull all tables from incoming sattelite data. 
+
+satresult =satc.fetchall()
+#should fetch data from database tables
+
+#practice print from database will have this till we have an executable to send to. 
+
+for row in satresult:
+    print(row)
 
