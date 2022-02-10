@@ -1,0 +1,17 @@
+C:\Users\tryst\source\repos\Cube\Cube\obj\Debug\net6.0-windows\Cube.vbproj.AssemblyReference.cache
+C:\Users\tryst\source\repos\Cube\Cube\obj\Debug\net6.0-windows\Cube.Form1.resources
+C:\Users\tryst\source\repos\Cube\Cube\obj\Debug\net6.0-windows\Cube.vbproj.GenerateResource.cache
+C:\Users\tryst\source\repos\Cube\Cube\obj\Debug\net6.0-windows\Cube.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tryst\source\repos\Cube\Cube\obj\Debug\net6.0-windows\Cube.AssemblyInfoInputs.cache
+C:\Users\tryst\source\repos\Cube\Cube\obj\Debug\net6.0-windows\Cube.AssemblyInfo.vb
+C:\Users\tryst\source\repos\Cube\Cube\obj\Debug\net6.0-windows\Cube.vbproj.CoreCompileInputs.cache
+C:\Users\tryst\source\repos\Cube\Cube\bin\Debug\net6.0-windows\Cube.exe
+C:\Users\tryst\source\repos\Cube\Cube\bin\Debug\net6.0-windows\Cube.deps.json
+C:\Users\tryst\source\repos\Cube\Cube\bin\Debug\net6.0-windows\Cube.runtimeconfig.json
+C:\Users\tryst\source\repos\Cube\Cube\bin\Debug\net6.0-windows\Cube.dll
+C:\Users\tryst\source\repos\Cube\Cube\bin\Debug\net6.0-windows\ref\Cube.dll
+C:\Users\tryst\source\repos\Cube\Cube\bin\Debug\net6.0-windows\Cube.pdb
+C:\Users\tryst\source\repos\Cube\Cube\obj\Debug\net6.0-windows\Cube.dll
+C:\Users\tryst\source\repos\Cube\Cube\obj\Debug\net6.0-windows\ref\Cube.dll
+C:\Users\tryst\source\repos\Cube\Cube\obj\Debug\net6.0-windows\Cube.pdb
+C:\Users\tryst\source\repos\Cube\Cube\obj\Debug\net6.0-windows\Cube.genruntimeconfig.cache
