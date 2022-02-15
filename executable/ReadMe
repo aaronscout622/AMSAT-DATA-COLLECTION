@@ -1,11 +1,11 @@
 #Creation of a Executable very rough at the moment
 #Checklist (ADD X When completed)
 #Needs login exe to allow main to pop up 
-#Needs setting popup
+#Needs setting popup X
 #Needs to add value to main buttons
 #Needs visual update
 #Needs connection to data base
-#Needs sattelite orginization
+#Needs sattelite orginization X
 #Needs sattelite values
 #Needs to do FAQ info
 #Needs profile creation/ part of login/ editing as well as popup
@@ -13,5 +13,5 @@
 #Needs to add exception/errors 
 #Needs more functionalties
 #Formatting 
-#Need to add value to checkboxes
+#Need to add value to checkboxes X
 
