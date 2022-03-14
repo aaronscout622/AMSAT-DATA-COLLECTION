@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tryst\\Desktop\\CubesatProject\\CubesatProject.csproj": {}
+    "C:\\Users\\datsd\\Desktop\\CubesatProject update 1\\CubesatProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tryst\\Desktop\\CubesatProject\\CubesatProject.csproj": {
+    "C:\\Users\\datsd\\Desktop\\CubesatProject update 1\\CubesatProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tryst\\Desktop\\CubesatProject\\CubesatProject.csproj",
+        "projectUniqueName": "C:\\Users\\datsd\\Desktop\\CubesatProject update 1\\CubesatProject.csproj",
         "projectName": "CubesatProject",
-        "projectPath": "C:\\Users\\tryst\\Desktop\\CubesatProject\\CubesatProject.csproj",
-        "packagesPath": "C:\\Users\\tryst\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tryst\\Desktop\\CubesatProject\\obj\\",
+        "projectPath": "C:\\Users\\datsd\\Desktop\\CubesatProject update 1\\CubesatProject.csproj",
+        "packagesPath": "C:\\Users\\datsd\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\datsd\\Desktop\\CubesatProject update 1\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\tryst\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\datsd\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -61,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
