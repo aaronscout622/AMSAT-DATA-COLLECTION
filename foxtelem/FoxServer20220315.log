@@ -1,0 +1,1611 @@
+20220315023844: Starting FoxServer: Version 0.36a - 23 Jan 2021
+20220315023844: Listening on port: 41042
+20220315023844: Loading format from: FOX_BPSK.format
+20220315023845: Loading format from: GOLF_BPSK.format
+20220315023845: Loading layout: spacecraft\GOLF-T_header.csv
+20220315023845: Checking spacecraft file: CubeSat_Simulator_DUV.MASTER
+20220315023845: Leaving existing spacecraft file: CubeSat_Simulator_DUV.dat
+20220315023845: Checking spacecraft file: CubeSat_Simulator_PSK.MASTER
+20220315023845: Leaving existing spacecraft file: CubeSat_Simulator_PSK.dat
+20220315023845: Checking spacecraft file: FOX1A_fm.MASTER
+20220315023845: Leaving existing spacecraft file: FOX1A_fm.dat
+20220315023845: Checking spacecraft file: FOX1C_fm.MASTER
+20220315023845: Leaving existing spacecraft file: FOX1C_fm.dat
+20220315023845: Checking spacecraft file: FOX1D_fm.MASTER
+20220315023845: Leaving existing spacecraft file: FOX1D_fm.dat
+20220315023845: Checking spacecraft file: FOX1E_fm.MASTER
+20220315023845: Leaving existing spacecraft file: FOX1E_fm.dat
+20220315023845: Checking spacecraft file: GOLF-T.MASTER
+20220315023845: Leaving existing spacecraft file: GOLF-T.dat
+20220315023845: Checking spacecraft file: HUSKY_SAT_fm.MASTER
+20220315023845: Leaving existing spacecraft file: HUSKY_SAT_fm.dat
+20220315023845: Checking spacecraft file: RadFxSat_fm.MASTER
+20220315023845: Leaving existing spacecraft file: RadFxSat_fm.dat
+20220315023845: Set Logfile Spacecraft directory to: spacecraft
+20220315023845: Loading spacecraft from: CubeSat_Simulator_DUV.dat
+20220315023845: Stored: cubesatsim_voltage: 0.0 + 0.01x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts voltages read from the INA219 sensors
+20220315023845: Stored: cubesatsim_current: -2048.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts positive and negative currents read from the INA219 sensors
+20220315023845: Stored: cubesatsim_temperature: 0.0 + 0.1x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts temperature of Pi
+20220315023845: Stored: cubesatsim_rotation: -2048.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts positive and negative dps rotation
+20220315023845: Stored: cubesatsim_acceleration: -20.48 + 0.01x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts positive and negative g acceleration
+20220315023845: Stored: cubesatsim_altitude: 0.0 + 0.1x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts altitude
+20220315023845: Stored: cubesatsim_pressure: 0.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts pressure
+20220315023845: Stored: cubesatsim_sensor1: 0.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Conversion of Sensor 1
+20220315023845: Stored: cubesatsim_sensor2: -2048.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Conversion of Sensor 2
+20220315023845: Stored: cubesatsim_sensor3: -20.48 + 0.01x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Conversion of Sensor 3
+20220315023845: Stored: cubesatsim_rpm: -204.8 + 0.1x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Conversion of calculated RPM
+20220315023845: Stored: cubesatsim_rssi: -2048.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Conversion of Received Signal Strength
+20220315023845: Loading lookup table: spacecraft\status_on_off.tab
+20220315023845: Stored: Lookup Table: STATUS_ON_OFF
+20220315023845: Loading layout: spacecraft\FOX1A_debug.csv
+20220315023845: Loading layout: spacecraft\CubeSatSim_maxtelemetry.csv
+20220315023845: Loading layout: spacecraft\CubeSatSim_rttelemetry.csv
+20220315023845: Loading layout: spacecraft\CubeSatSim_mintelemetry.csv
+20220315023845: Loading lookup table: spacecraft\FOX1A_rssiFM.tab
+20220315023845: Stored: Lookup Table: RSSI
+20220315023845: Loading lookup table: spacecraft\FOX1A_ihuVBattSN7.tab
+20220315023845: Stored: Lookup Table: IHU_VBATT
+20220315023845: Loading lookup table: spacecraft\FOX1A_ihutempSN7.tab
+20220315023845: Stored: Lookup Table: IHU_TEMP
+20220315023845: Loading layout: spacecraft\measurements.csv
+20220315023845: Loading layout: spacecraft\passmeasurements.csv
+20220315023845: TLE file not loaded: spacecraft\FOX7.tle
+20220315023845: Sources: 1
+20220315023845: amsat.cubesat_simulator.ihu.duv
+20220315023845: Loading spacecraft from: CubeSat_Simulator_PSK.dat
+20220315023845: Stored: cubesatsim_voltage: 0.0 + 0.01x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts voltages read from the INA219 sensors
+20220315023845: Stored: cubesatsim_current: -2048.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts positive and negative currents read from the INA219 sensors
+20220315023845: Stored: cubesatsim_temperature: 0.0 + 0.1x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts temperature of Pi
+20220315023845: Stored: cubesatsim_rotation: -2048.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts positive and negative dps rotation
+20220315023845: Stored: cubesatsim_acceleration: -20.48 + 0.01x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts positive and negative g acceleration
+20220315023845: Stored: cubesatsim_altitude: 0.0 + 0.1x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts altitude
+20220315023845: Stored: cubesatsim_pressure: 0.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts pressure
+20220315023845: Stored: cubesatsim_sensor1: 0.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Conversion of Sensor 1
+20220315023845: Stored: cubesatsim_sensor2: -2048.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Conversion of Sensor 2
+20220315023845: Stored: cubesatsim_sensor3: -20.48 + 0.01x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Conversion of Sensor 3
+20220315023845: Stored: cubesatsim_rpm: -204.8 + 0.1x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Conversion of calculated RPM
+20220315023845: Stored: cubesatsim_rssi: -2048.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Conversion of Received Signal Strength
+20220315023845: Loading lookup table: spacecraft\status_on_off.tab
+20220315023845: Stored: Lookup Table: STATUS_ON_OFF
+20220315023845: Loading layout: spacecraft\FOX1A_debug.csv
+20220315023845: Loading layout: spacecraft\CubeSatSim_PSK_maxtelemetry.csv
+20220315023845: Loading layout: spacecraft\CubeSatSim_PSK_rttelemetry.csv
+20220315023845: Loading layout: spacecraft\CubeSatSim_PSK_mintelemetry.csv
+20220315023845: Loading layout: spacecraft\FOX1E_radtelemetry.csv
+20220315023845: Loading layout: spacecraft\FOX1E_radtelemetry2.csv
+20220315023845: Loading layout: spacecraft\CubeSatSim_PSK_wodtelemetry.csv
+20220315023845: Loading layout: spacecraft\FOX1E_wodradtelemetry.csv
+20220315023845: Loading layout: spacecraft\FOX1E_wodradtelemetry2.csv
+20220315023845: Loading lookup table: spacecraft\FOX1A_rssiFM.tab
+20220315023845: Stored: Lookup Table: RSSI
+20220315023845: Loading lookup table: spacecraft\FOX1E_ihuVBattSNx.tab
+20220315023845: Stored: Lookup Table: IHU_VBATT
+20220315023845: Loading lookup table: spacecraft\FOX1A_ihutempSN7.tab
+20220315023845: Stored: Lookup Table: IHU_TEMP
+20220315023845: Loading layout: spacecraft\measurements.csv
+20220315023845: Loading layout: spacecraft\passmeasurements.csv
+20220315023845: TLE file not loaded: spacecraft\FOX99.tle
+20220315023845: Frame Layouts: 5
+ : All WOD : 6 payloads20220315023845: 
+ : Health : 6 payloads20220315023845: 
+ : MinMax : 6 payloads20220315023845: 
+ : Realtime Beacon : 6 payloads20220315023845: 
+ : WOD Beacon : 6 payloads20220315023845: 
+20220315023845: Sources: 1
+20220315023845: amsat.cubesat_simulator.ihu.bpsk
+20220315023845: Loading spacecraft from: FOX1A_fm.dat
+20220315023845: Stored: dummy: 0.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Test curve
+20220315023845: Expression loaded: expression75: " ((4  	- 2^3+1) * -sqrt(3*3+4*4)) / 2"
+20220315023845: Expression loaded: ExpScalarRotation:  sqrt(SatelliteXAxisAngularVelocity*SatelliteXAxisAngularVelocity + SatelliteYAxisAngularVelocity*SatelliteYAxisAngularVelocity + SatelliteZAxisAngularVelocity*SatelliteZAxisAngularVelocity)
+20220315023845: Expression loaded: ExpMemsXRotationAngle:  360 * acos(abs(SatelliteXAxisAngularVelocity / MemsScalarRotation)) / (2 * 3.14159)
+20220315023845: Expression loaded: ExpMemsYRotationAngle:  360 * acos(abs(SatelliteYAxisAngularVelocity / MemsScalarRotation)) / (2 * 3.14159)
+20220315023845: Expression loaded: ExpMemsZRotationAngle:  360 * acos(abs(SatelliteZAxisAngularVelocity / MemsScalarRotation)) / (2 * 3.14159)
+20220315023845: Loading layout: spacecraft\FOX1A_debug.csv
+20220315023845: Loading layout: spacecraft\FOX1A_maxtelemetry.csv
+20220315023845: Loading layout: spacecraft\FOX1A_rttelemetryFM.csv
+20220315023845: Loading layout: spacecraft\FOX1A_mintelemetry.csv
+20220315023845: Loading layout: spacecraft\FOX1A_radtelemetry.csv
+20220315023845: Loading layout: spacecraft\FOX1A_radtelemetry2.csv
+20220315023845: Loading lookup table: spacecraft\FOX1A_rssiFM.tab
+20220315023845: Stored: Lookup Table: RSSI
+20220315023845: Loading lookup table: spacecraft\FOX1A_ihuVBattSN7.tab
+20220315023845: Stored: Lookup Table: IHU_VBATT
+20220315023845: Loading lookup table: spacecraft\FOX1A_ihutempSN7.tab
+20220315023845: Stored: Lookup Table: IHU_TEMP
+20220315023845: Loading layout: spacecraft\measurements.csv
+20220315023845: Loading layout: spacecraft\passmeasurements.csv
+20220315023845: TLE file not loaded: spacecraft\FOX1.tle
+20220315023845: Sources: 2
+20220315023845: amsat.fox-1a.ihu.duv
+20220315023845: amsat.fox-1a.ihu.highspeed
+20220315023845: Loading spacecraft from: FOX1C_fm.dat
+20220315023845: Loading layout: spacecraft\FOX1A_debug.csv
+20220315023845: Loading layout: spacecraft\FOX1C_maxtelemetry.csv
+20220315023845: Loading layout: spacecraft\FOX1C_rttelemetryFM.csv
+20220315023845: Loading layout: spacecraft\FOX1C_mintelemetry.csv
+20220315023845: Loading layout: spacecraft\FOX1C_radtelemetry.csv
+20220315023845: Loading layout: spacecraft\FOX1C_radtelemetry2.csv
+20220315023845: Loading lookup table: spacecraft\FOX1C_rssiFM.tab
+20220315023845: Loading lookup table: spacecraft\FOX1C_ihuVBattSN9.tab
+20220315023845: Loading lookup table: spacecraft\FOX1A_ihutempSN8.tab
+20220315023845: Loading layout: spacecraft\measurements.csv
+20220315023845: Loading layout: spacecraft\passmeasurements.csv
+20220315023845: TLE file not loaded: spacecraft\FOX3.tle
+20220315023845: Sources: 2
+20220315023845: amsat.fox-1c.ihu.duv
+20220315023845: amsat.fox-1c.ihu.highspeed
+20220315023845: Loading spacecraft from: FOX1D_fm.dat
+20220315023845: Loading layout: spacecraft\FOX1A_debug.csv
+20220315023845: Loading layout: spacecraft\FOX1D_maxtelemetry.csv
+20220315023845: Loading layout: spacecraft\FOX1D_rttelemetryFM.csv
+20220315023845: Loading layout: spacecraft\FOX1D_mintelemetry.csv
+20220315023845: Loading layout: spacecraft\FOX1D_radtelemetry.csv
+20220315023845: Loading layout: spacecraft\FOX1D_hercihousekeeping.csv
+20220315023845: Loading layout: spacecraft\FOX1D_hshercitelemetry.csv
+20220315023845: Loading layout: spacecraft\FOX1D_herciScienceTelemHeader.csv
+20220315023845: Loading layout: spacecraft\FOX1D_herciSciencePacket.csv
+20220315023845: Loading lookup table: spacecraft\FOX1D_rssiFM.tab
+20220315023845: Loading lookup table: spacecraft\FOX1D_ihuVBattSN10.tab
+20220315023845: Loading lookup table: spacecraft\FOX1A_ihutempSN8.tab
+20220315023845: Loading layout: spacecraft\measurements.csv
+20220315023845: Loading layout: spacecraft\passmeasurements.csv
+20220315023845: TLE file not loaded: spacecraft\FOX4.tle
+20220315023845: Sources: 2
+20220315023845: amsat.fox-1d.ihu.duv
+20220315023845: amsat.fox-1d.ihu.highspeed
+20220315023845: Loading spacecraft from: FOX1E_fm.dat
+20220315023845: Loading layout: spacecraft\FOX1A_debug.csv
+20220315023845: Loading layout: spacecraft\FOX1E_maxtelemetry.csv
+20220315023845: Loading layout: spacecraft\FOX1E_rttelemetry.csv
+20220315023845: Loading layout: spacecraft\FOX1E_mintelemetry.csv
+20220315023845: Loading layout: spacecraft\FOX1E_radtelemetry.csv
+20220315023845: Loading layout: spacecraft\FOX1E_radtelemetry2.csv
+20220315023845: Loading layout: spacecraft\FOX1E_wodtelemetry.csv
+20220315023845: Loading layout: spacecraft\FOX1E_wodradtelemetry.csv
+20220315023845: Loading layout: spacecraft\FOX1E_wodradtelemetry2.csv
+20220315023845: Loading lookup table: spacecraft\FOX1A_rssiFM.tab
+20220315023845: Loading lookup table: spacecraft\FOX1E_ihuVBattSNx.tab
+20220315023845: Loading lookup table: spacecraft\FOX1A_ihutempSN7.tab
+20220315023845: Loading layout: spacecraft\measurements.csv
+20220315023845: Loading layout: spacecraft\passmeasurements.csv
+20220315023845: TLE file not loaded: spacecraft\FOX5.tle
+20220315023845: Frame Layouts: 5
+ : All WOD : 6 payloads20220315023845: 
+ : Health : 6 payloads20220315023845: 
+ : MinMax : 6 payloads20220315023845: 
+ : Realtime Beacon : 6 payloads20220315023845: 
+ : WOD Beacon : 6 payloads20220315023845: 
+20220315023845: Sources: 1
+20220315023845: amsat.fox-1e.ihu.bpsk
+ : FOX_BPSK20220315023845:  - frame length: 572
+20220315023845:  - data length: 476
+20220315023845:  - header length: 8
+20220315023845:  - trailer length: 96
+20220315023845:  - rs words: 3
+ - padding:  64 64 6520220315023845: 
+20220315023845: Loading spacecraft from: GOLF-T.dat
+20220315023845: Stored: com1_tx_fwd_pwr: -13.019 + 36.436x + -13.107x^2 + 1.7685x^3 + 0.0x^4 + 0.0x^5 Forward power. Apply to the voltage value from the IHU lookup table
+20220315023845: Stored: com1_tx_ref_pwr: -34.583 + 0.1727x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Reflected power. Apply to the voltage value from the IHU lookup table
+20220315023845: Stored: 8_bit_temp: -20.0 + 0.5x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 gtemp RT1Temp and RT2Temp IHU supplies as 7.1 fixed point with offset of 20
+20220315023845: Stored: golf-t_bus_voltage: 0.0 + 0.0399x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 0-255 means 0-13.61V
+20220315023845: Stored: 8_bit_voltage: 0.0 + 0.03026x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 3V Prot 2.5V prot VGA Control and others
+20220315023845: Stored: golf-t_tx_current: 0.0 + 5.725x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Milliamps of Power Amp Current
+20220315023845: Stored: 8_bit_accel: -2.0 + 0.015625x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Gs (range=+/- 2)
+20220315023845: Stored: 8_bit_mag: -76.8 + 0.6x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Microteslas (range = ~ +/- 76.8)
+20220315023845: Stored: 8_bit_spin: -3.9 + 0.0305x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Degrees per second (range=about +/- 46  a should be 3.9)
+20220315023845: Stored: dct_rssi: -255.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Convert 0 to 255 into -256 to 0 for 8 bit unsigned DCT RSSI downlink
+20220315023845: Expression loaded: expression75: " ((4  	- 2^3+1) * -sqrt(3*3+4*4)) / 2"
+20220315023845: Expression loaded: ExpScalarRotation:  sqrt(Xspin*Xspin + Yspin*Yspin + Zspin*Zspin)
+20220315023845: Expression loaded: ExpMemsXRotationAngle:  360 * acos(abs(Xspin / MemsScalarRotation)) / (2 * 3.14159)
+20220315023845: Expression loaded: ExpMemsYRotationAngle:  360 * acos(abs(Yspin / MemsScalarRotation)) / (2 * 3.14159)
+20220315023845: Expression loaded: ExpMemsZRotationAngle:  360 * acos(abs(Zspin / MemsScalarRotation)) / (2 * 3.14159)
+20220315023845: Loading lookup table: spacecraft\status_enabled.tab
+20220315023845: Stored: Lookup Table: STATUS_ENABLED
+20220315023845: Loading lookup table: spacecraft\status_bit.tab
+20220315023845: Stored: Lookup Table: STATUS_BIT
+20220315023845: Loading lookup table: spacecraft\status_boolean.tab
+20220315023845: Stored: Lookup Table: STATUS_BOOLEAN
+20220315023845: Loading lookup table: spacecraft\golf_task_name.tab
+20220315023845: Stored: Lookup Table: GOLF_TASK_NAME
+20220315023845: Loading lookup table: spacecraft\golf_lihu_err.tab
+20220315023845: Stored: Lookup Table: GOLF_LIHU_ERR
+20220315023845: Loading lookup table: spacecraft\golf_rtihu_err.tab
+20220315023845: Stored: Lookup Table: GOLF_RTIHU_ERR
+20220315023845: Loading lookup table: spacecraft\golf_eclipse_action.tab
+20220315023845: Stored: Lookup Table: GOLF_ECLIPSE_ACTION
+20220315023845: Loading layout: spacecraft\FOX1A_debug.csv
+20220315023845: Loading layout: spacecraft\GOLF-T_maxtelemetry.csv
+20220315023845: Loading layout: spacecraft\GOLF-T_rttelemetry.csv
+20220315023845: Loading layout: spacecraft\GOLF-T_mintelemetry.csv
+20220315023845: Loading layout: spacecraft\GOLF-T_radtelemetry.csv
+20220315023845: Loading layout: spacecraft\GOLF-T_radtelemetry2.csv
+20220315023845: Loading layout: spacecraft\GOLF-T_wodradtelemetry.csv
+20220315023845: Loading layout: spacecraft\GOLF-T_wodradtelemetry2.csv
+20220315023845: Loading layout: spacecraft\GOLF-T_wodtelemetry.csv
+20220315023845: Loading layout: spacecraft\GOLF-T_ragtelemetry.csv
+20220315023845: Loading layout: spacecraft\GOLF-T_wodragtelemetry.csv
+20220315023845: Loading layout: spacecraft\GOLF-T_diagnostictelemetry.csv
+20220315023845: Loading lookup table: spacecraft\FOX1A_rssiFM.tab
+20220315023845: Stored: Lookup Table: RSSI
+20220315023845: Loading lookup table: spacecraft\HUSKY_SAT_ihuVBattSN31.tab
+20220315023845: Stored: Lookup Table: IHU_VBATT
+20220315023845: Loading lookup table: spacecraft\HUSKY_SAT_ihutempSN22.tab
+20220315023845: Stored: Lookup Table: IHU_TEMP
+20220315023845: Loading lookup table: spacecraft\HUSKY_isisAntTemp.tab
+20220315023845: Stored: Lookup Table: HUSKY_ISIS_ANT_TEMP
+20220315023845: Loading layout: spacecraft\measurements.csv
+20220315023845: Loading layout: spacecraft\passmeasurements.csv
+20220315023845: TLE file not loaded: spacecraft\FOX8.tle
+20220315023845: Frame Layouts: 9
+ : Realtime 1 : 7 payloads20220315023845: 
+ : Realtime 2 : 7 payloads20220315023845: 
+ : All WOD 1 : 7 payloads20220315023845: 
+ : All WOD 2 : 7 payloads20220315023845: 
+ : All WOD 3 : 7 payloads20220315023845: 
+ : Safe Data 1 : 7 payloads20220315023845: 
+ : Safe Data 2 : 7 payloads20220315023845: 
+ : Safe WOD : 6 payloads20220315023845: 
+ : Diagnostic : 6 payloads20220315023845: 
+20220315023845: Sources: 2
+20220315023845: amsat.golf-t.lihu.bpsk
+ : GOLF_BPSK20220315023845:  - frame length: 765
+20220315023845:  - data length: 669
+20220315023845:  - header length: 12
+20220315023845:  - trailer length: 96
+20220315023845:  - rs words: 3
+ - padding:  0 0 020220315023845: 
+20220315023845: amsat.golf-t.rtihu.bpsk
+ : GOLF_BPSK20220315023845:  - frame length: 765
+20220315023845:  - data length: 669
+20220315023845:  - header length: 12
+20220315023845:  - trailer length: 96
+20220315023845:  - rs words: 3
+ - padding:  0 0 020220315023845: 
+20220315023845: Loading spacecraft from: HUSKY_SAT_fm.dat
+20220315023845: Stored: eps_current: 0.0 + 0.48828125x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Scale the EPS current values 1000/2048
+20220315023845: Stored: eps_node_voltage: 0.0 + 0.004x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Scale the node voltage
+20220315023845: Stored: panel_current: 0.0 + 4.58E-5x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 RC_EPS_GEN Current
+20220315023845: Stored: panel_power: 0.0 + 9.15527E-4x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 RC_EPS_GEN Power
+20220315023845: Stored: panel_temperature: -50.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 PC_EPS_GEN temperature
+20220315023845: Stored: eps_batt_current: 0.0 + 3.051757813x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 EPS BATT Current 1000/327.68
+20220315023845: Stored: com1_wodSize: 0.0 + 4.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 The size of the WOD stored is 4x the downliked value
+20220315023845: Loading layout: spacecraft\FOX1A_debug.csv
+20220315023845: Loading layout: spacecraft\HUSKY_SAT_maxtelemetry.csv
+20220315023845: Loading layout: spacecraft\HUSKY_SAT_rttelemetry.csv
+20220315023845: Loading layout: spacecraft\HUSKY_SAT_mintelemetry.csv
+20220315023845: Loading layout: spacecraft\HUSKY_SAT_exptelemetry.csv
+20220315023845: Loading layout: spacecraft\HUSKY_SAT_wodtelemetry.csv
+20220315023845: Loading layout: spacecraft\HUSKY_SAT_wodexptelemetry.csv
+20220315023845: Loading layout: spacecraft\HUSKY_SAT_CanPacket.csv
+20220315023845: Loading layout: spacecraft\HUSKY_SAT_CanPacket.csv
+20220315023845: Loading lookup table: spacecraft\FOX1A_rssiFM.tab
+20220315023845: Stored: Lookup Table: RSSI
+20220315023845: Loading lookup table: spacecraft\HUSKY_SAT_ihuVBattSN31.tab
+20220315023845: Stored: Lookup Table: IHU_VBATT
+20220315023845: Loading lookup table: spacecraft\HUSKY_SAT_ihutempSN22.tab
+20220315023845: Stored: Lookup Table: IHU_TEMP
+20220315023845: Loading lookup table: spacecraft\HUSKY_isisAntTemp.tab
+20220315023845: Stored: Lookup Table: HUSKY_ISIS_ANT_TEMP
+20220315023845: Loading Can Frames: spacecraft\HuskySat\frames.csv
+20220315023845: Loading 190 CAN Layouts
+20220315023845: Loading layout: spacecraft\HuskySat\mode.csv
+20220315023845: Loading layout: spacecraft\HuskySat\sync_1.csv
+20220315023845: Loading layout: spacecraft\HuskySat\bdot_tumble_status.csv
+20220315023845: Loading layout: spacecraft\HuskySat\rc_eps_batt_2.csv
+20220315023845: Loading layout: spacecraft\HuskySat\rc_eps_batt_3.csv
+20220315023845: Loading layout: spacecraft\HuskySat\rc_eps_batt_5.csv
+20220315023845: Loading layout: spacecraft\HuskySat\rc_eps_batt_6.csv
+20220315023845: Loading layout: spacecraft\HuskySat\rc_adcs_mtq_2.csv
+20220315023845: Loading layout: spacecraft\HuskySat\rc_adcs_mtq_3.csv
+20220315023845: Loading layout: spacecraft\HuskySat\rc_adcs_mtq_4.csv
+20220315023845: Loading layout: spacecraft\HuskySat\rc_adcs_mtq_5.csv
+20220315023845: Loading layout: spacecraft\HuskySat\rc_eps_dist_4.csv
+20220315023845: Loading layout: spacecraft\HuskySat\rc_ppt_h1.csv
+20220315023845: Loading layout: spacecraft\HuskySat\rc_adcs_mtq_h1.csv
+20220315023845: Loading layout: spacecraft\HuskySat\rc_eps_gen_h1.csv
+20220315023845: Loading layout: spacecraft\HuskySat\rc_adcs_sp_h1.csv
+20220315023845: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_h1.csv
+20220315023845: Loading layout: spacecraft\HuskySat\rc_eps_dist_h1.csv
+20220315023845: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_h1.csv
+20220315023845: Loading layout: spacecraft\HuskySat\rc_eps_batt_h1.csv
+20220315023845: Loading layout: spacecraft\HuskySat\rc_ppt_h2.csv
+20220315023845: Loading layout: spacecraft\HuskySat\rc_adcs_mtq_h2.csv
+20220315023845: Loading layout: spacecraft\HuskySat\rc_eps_gen_h2.csv
+20220315023845: Loading layout: spacecraft\HuskySat\rc_adcs_sp_h2.csv
+20220315023845: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_h2.csv
+20220315023845: Loading layout: spacecraft\HuskySat\rc_eps_dist_h2.csv
+20220315023845: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_h2.csv
+20220315023845: Loading layout: spacecraft\HuskySat\rc_eps_batt_h2.csv
+20220315023845: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_7.csv
+20220315023845: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_8.csv
+20220315023845: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_9.csv
+20220315023845: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_10.csv
+20220315023845: Loading layout: spacecraft\HuskySat\cmd_reboot_request.csv
+20220315023845: Loading layout: spacecraft\HuskySat\gcmd_ppt_halt.csv
+20220315023845: Loading layout: spacecraft\HuskySat\gcmd_batt_set_heater_check.csv
+20220315023845: Loading layout: spacecraft\HuskySat\cmd_pd_rst.csv
+20220315023846: Loading layout: spacecraft\HuskySat\cmd_mtq_fsw.csv
+20220315023846: Loading layout: spacecraft\HuskySat\cmd_ignore_fsw.csv
+20220315023846: Loading layout: spacecraft\HuskySat\cmd_ppt_single_fire.csv
+20220315023846: Loading layout: spacecraft\HuskySat\cmd_pd_enable.csv
+20220315023846: Loading layout: spacecraft\HuskySat\cmd_batt_rst.csv
+20220315023846: Loading layout: spacecraft\HuskySat\cmd_batt_bal_enable.csv
+20220315023846: Loading layout: spacecraft\HuskySat\cmd_ppt_time_upd.csv
+20220315023846: Loading layout: spacecraft\HuskySat\cmd_ppt_set_count.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_mtq_pop.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_dist_set_pd_state.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_dist_set_pd_ovc_com1.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_dist_set_pd_ovc_com2.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_dist_set_pd_ovc_rahs.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_dist_set_pd_ovc_bdot.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_dist_set_pd_ovc_estim.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_dist_set_pd_ovc_wheels.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_dist_set_pd_ovc_eps.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_dist_set_pd_ovc_ppt.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_gen_set_pt_state.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_sp_set_thresh.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_bdot_pole_override.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_bdot_mag_control.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_bdot_control.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_bdot_spam.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_bdot_max_tumble.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_mtq_pms.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_reset_minmax.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_eps_batt_fulldef.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_mtq_pwm_time.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_ppt_multiple_fire.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_autosequencer_add_1.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_autosequencer_add_2.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_autosequencer_rm_at_index.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_autosequencer_remove_can_id.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_autosequencer_get_indices.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_autosequencer_get_met.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_dist_self_restart.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_dist_reset_mission.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_dist_autoshutoff.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_batt_set_balancer_auto.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_autoseq_enable.csv
+20220315023846: Loading layout: spacecraft\HuskySat\mpc_vp.csv
+20220315023846: Loading layout: spacecraft\HuskySat\tle_1.csv
+20220315023846: Loading layout: spacecraft\HuskySat\tle_2.csv
+20220315023846: Loading layout: spacecraft\HuskySat\tle_3.csv
+20220315023846: Loading layout: spacecraft\HuskySat\tle_4.csv
+20220315023846: Loading layout: spacecraft\HuskySat\tle_5.csv
+20220315023846: Loading layout: spacecraft\HuskySat\tle_6.csv
+20220315023846: Loading layout: spacecraft\HuskySat\estim_sun_unit_x.csv
+20220315023846: Loading layout: spacecraft\HuskySat\estim_sun_unit_y.csv
+20220315023846: Loading layout: spacecraft\HuskySat\estim_sun_unit_z.csv
+20220315023846: Loading layout: spacecraft\HuskySat\estim_mag_unit_x.csv
+20220315023846: Loading layout: spacecraft\HuskySat\estim_mag_unit_y.csv
+20220315023846: Loading layout: spacecraft\HuskySat\estim_mag_unit_z.csv
+20220315023846: Loading layout: spacecraft\HuskySat\estim_state.csv
+20220315023846: Loading layout: spacecraft\HuskySat\grnd_epoch.csv
+20220315023846: Loading layout: spacecraft\HuskySat\gcmd_com2_run.csv
+20220315023846: Loading layout: spacecraft\HuskySat\sensorproc_sun.csv
+20220315023846: Loading layout: spacecraft\HuskySat\sensorproc_imu.csv
+20220315023846: Loading layout: spacecraft\HuskySat\sensorproc_mag.csv
+20220315023846: Loading layout: spacecraft\HuskySat\cmd_rollcall.csv
+20220315023846: Loading layout: spacecraft\HuskySat\eps_dist_autoseq_get_indices_rsp.csv
+20220315023846: Loading layout: spacecraft\HuskySat\eps_dist_autosequencer_get_met_rsp.csv
+20220315023846: Loading layout: spacecraft\HuskySat\cmd_mtq_bdot.csv
+20220315023846: Loading layout: spacecraft\HuskySat\mtq_ack.csv
+20220315023846: Loading layout: spacecraft\HuskySat\com2_state.csv
+20220315023846: Loading layout: spacecraft\HuskySat\ppt_firing_result.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_eps_batt_4.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_1.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_2.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_ppt_1.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_ppt_2.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_ppt_3.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_eps_gen_1.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_eps_gen_2.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_eps_gen_3.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_eps_gen_4.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_eps_gen_5.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_eps_gen_6.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_eps_gen_7.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_eps_gen_8.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_eps_gen_9.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_3.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_4.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_sp_1.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_sp_2.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_sp_3.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_sp_4.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_sp_5.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_sp_6.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_sp_7.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_sp_8.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_sp_9.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_sp_10.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_sp_11.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_sp_12.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_sp_13.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_sp_14.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_sp_15.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_sp_16.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_sp_17.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_estim_1.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_estim_2.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_estim_3.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_estim_4.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_estim_5.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_estim_6.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_estim_7.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_estim_8.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_1.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_2.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_3.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_4.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_5.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_6.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_7.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_8.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_9.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_10.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_11.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_12.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_13.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_14.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_15.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_eps_dist_2.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_eps_dist_3.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_eps_dist_5.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_eps_dist_6.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_eps_dist_7.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_eps_dist_8.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_eps_dist_9.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_eps_dist_10.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_eps_dist_11.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_eps_dist_12.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_eps_dist_13.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_eps_dist_14.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_eps_dist_15.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_eps_dist_16.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_eps_dist_17.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_estim_9.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_estim_10.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_estim_11.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_estim_12.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_estim_13.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_estim_14.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_eps_batt_7.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_5.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_estim_h1.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_estim_h2.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_6.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_eps_dist_18.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_eps_dist_1.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_eps_batt_1.csv
+20220315023846: Loading layout: spacecraft\HuskySat\rc_eps_gen_10.csv
+20220315023846: Loading layout: spacecraft\measurements.csv
+20220315023846: Loading layout: spacecraft\passmeasurements.csv
+20220315023846: TLE file not loaded: spacecraft\FOX6.tle
+20220315023846: Frame Layouts: 11
+ : All WOD : 6 payloads20220315023846: 
+ : Health : 6 payloads20220315023846: 
+ : MinMax : 6 payloads20220315023846: 
+ : Realtime Beacon : 6 payloads20220315023846: 
+ : WOD Beacon : 6 payloads20220315023846: 
+ : CAN Science : 1 payloads20220315023846: 
+ : CAN Camera : 1 payloads20220315023846: 
+ : WOD CAN : 6 payloads20220315023846: 
+ : BCN WOD CAN1 : 6 payloads20220315023846: 
+ : Health CAN MinMax : 6 payloads20220315023846: 
+ : Health CAN : 6 payloads20220315023846: 
+20220315023846: Sources: 1
+20220315023846: amsat.husky_sat.ihu.bpsk
+ : FOX_BPSK20220315023846:  - frame length: 572
+20220315023846:  - data length: 476
+20220315023846:  - header length: 8
+20220315023846:  - trailer length: 96
+20220315023846:  - rs words: 3
+ - padding:  64 64 6520220315023846: 
+20220315023846: Loading spacecraft from: RadFxSat_fm.dat
+20220315023846: Loading layout: spacecraft\FOX1A_debug.csv
+20220315023846: Loading layout: spacecraft\RadFxSat_maxtelemetry.csv
+20220315023846: Loading layout: spacecraft\RadFxSat_rttelemetry.csv
+20220315023846: Loading layout: spacecraft\RadFxSat_mintelemetry.csv
+20220315023846: Loading layout: spacecraft\RadFxSat_radtelemetry.csv
+20220315023846: Loading layout: spacecraft\RadFxSat_radtelemetry2.csv
+20220315023846: Loading lookup table: spacecraft\RadFxSat_rssiFM.tab
+20220315023846: Loading lookup table: spacecraft\RadFxSat_ihuVBattSN12.tab
+20220315023846: Loading lookup table: spacecraft\RadFxSat_ihutempSN12.tab
+20220315023846: Loading layout: spacecraft\measurements.csv
+20220315023846: Loading layout: spacecraft\passmeasurements.csv
+20220315023846: TLE file not loaded: spacecraft\FOX2.tle
+20220315023846: Sources: 2
+20220315023846: ihu.duv
+20220315023846: ihu.highspeed
+20220315023846: LOADED: FoxTelemServer.properties
+20220315023846: FOX1T0.txt is deleted!
+20220315023846: FOX1T0.txt.tmp is deleted!
+20220315023846: FOX2T0.txt is deleted!
+20220315023846: FOX2T0.txt.tmp is deleted!
+20220315023847: FOX4T0.txt is deleted!
+20220315023847: FOX4T0.txt.tmp is deleted!
+20220315023847: FOX3T0.txt is deleted!
+20220315023847: FOX3T0.txt.tmp is deleted!
+20220315023847: Could not write T0 file: FOX99T0.txt
+20220315023847: Could not write T0 file: FOX7T0.txt
+20220315023847: FOX5T0.txt is deleted!
+20220315023847: FOX5T0.txt.tmp is deleted!
+20220315023847: Could not write T0 file: FOX8T0.txt
+20220315023847: FOX6T0.txt is deleted!
+20220315023847: FOX6T0.txt.tmp is deleted!
+20220315023850: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+20220315023850: ALERT: FATAL: Could not connect to DB
+20220315025413: Starting FoxServer: Version 0.36a - 23 Jan 2021
+20220315025413: Listening on port: 41042
+20220315025413: Loading format from: FOX_BPSK.format
+20220315025413: Loading format from: GOLF_BPSK.format
+20220315025413: Loading layout: spacecraft\GOLF-T_header.csv
+20220315025413: Checking spacecraft file: CubeSat_Simulator_DUV.MASTER
+20220315025413: Leaving existing spacecraft file: CubeSat_Simulator_DUV.dat
+20220315025413: Checking spacecraft file: CubeSat_Simulator_PSK.MASTER
+20220315025413: Leaving existing spacecraft file: CubeSat_Simulator_PSK.dat
+20220315025413: Checking spacecraft file: FOX1A_fm.MASTER
+20220315025413: Leaving existing spacecraft file: FOX1A_fm.dat
+20220315025413: Checking spacecraft file: FOX1C_fm.MASTER
+20220315025413: Leaving existing spacecraft file: FOX1C_fm.dat
+20220315025413: Checking spacecraft file: FOX1D_fm.MASTER
+20220315025413: Leaving existing spacecraft file: FOX1D_fm.dat
+20220315025413: Checking spacecraft file: FOX1E_fm.MASTER
+20220315025413: Leaving existing spacecraft file: FOX1E_fm.dat
+20220315025413: Checking spacecraft file: GOLF-T.MASTER
+20220315025413: Leaving existing spacecraft file: GOLF-T.dat
+20220315025413: Checking spacecraft file: HUSKY_SAT_fm.MASTER
+20220315025413: Leaving existing spacecraft file: HUSKY_SAT_fm.dat
+20220315025413: Checking spacecraft file: RadFxSat_fm.MASTER
+20220315025413: Leaving existing spacecraft file: RadFxSat_fm.dat
+20220315025413: Set Logfile Spacecraft directory to: spacecraft
+20220315025413: Loading spacecraft from: CubeSat_Simulator_DUV.dat
+20220315025413: Stored: cubesatsim_voltage: 0.0 + 0.01x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts voltages read from the INA219 sensors
+20220315025413: Stored: cubesatsim_current: -2048.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts positive and negative currents read from the INA219 sensors
+20220315025413: Stored: cubesatsim_temperature: 0.0 + 0.1x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts temperature of Pi
+20220315025413: Stored: cubesatsim_rotation: -2048.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts positive and negative dps rotation
+20220315025413: Stored: cubesatsim_acceleration: -20.48 + 0.01x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts positive and negative g acceleration
+20220315025413: Stored: cubesatsim_altitude: 0.0 + 0.1x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts altitude
+20220315025413: Stored: cubesatsim_pressure: 0.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts pressure
+20220315025413: Stored: cubesatsim_sensor1: 0.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Conversion of Sensor 1
+20220315025413: Stored: cubesatsim_sensor2: -2048.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Conversion of Sensor 2
+20220315025413: Stored: cubesatsim_sensor3: -20.48 + 0.01x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Conversion of Sensor 3
+20220315025413: Stored: cubesatsim_rpm: -204.8 + 0.1x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Conversion of calculated RPM
+20220315025413: Stored: cubesatsim_rssi: -2048.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Conversion of Received Signal Strength
+20220315025413: Loading lookup table: spacecraft\status_on_off.tab
+20220315025413: Stored: Lookup Table: STATUS_ON_OFF
+20220315025413: Loading layout: spacecraft\FOX1A_debug.csv
+20220315025413: Loading layout: spacecraft\CubeSatSim_maxtelemetry.csv
+20220315025413: Loading layout: spacecraft\CubeSatSim_rttelemetry.csv
+20220315025413: Loading layout: spacecraft\CubeSatSim_mintelemetry.csv
+20220315025413: Loading lookup table: spacecraft\FOX1A_rssiFM.tab
+20220315025413: Stored: Lookup Table: RSSI
+20220315025413: Loading lookup table: spacecraft\FOX1A_ihuVBattSN7.tab
+20220315025413: Stored: Lookup Table: IHU_VBATT
+20220315025413: Loading lookup table: spacecraft\FOX1A_ihutempSN7.tab
+20220315025413: Stored: Lookup Table: IHU_TEMP
+20220315025413: Loading layout: spacecraft\measurements.csv
+20220315025413: Loading layout: spacecraft\passmeasurements.csv
+20220315025413: TLE file not loaded: spacecraft\FOX7.tle
+20220315025413: Sources: 1
+20220315025413: amsat.cubesat_simulator.ihu.duv
+20220315025413: Loading spacecraft from: CubeSat_Simulator_PSK.dat
+20220315025413: Stored: cubesatsim_voltage: 0.0 + 0.01x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts voltages read from the INA219 sensors
+20220315025413: Stored: cubesatsim_current: -2048.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts positive and negative currents read from the INA219 sensors
+20220315025413: Stored: cubesatsim_temperature: 0.0 + 0.1x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts temperature of Pi
+20220315025413: Stored: cubesatsim_rotation: -2048.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts positive and negative dps rotation
+20220315025413: Stored: cubesatsim_acceleration: -20.48 + 0.01x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts positive and negative g acceleration
+20220315025413: Stored: cubesatsim_altitude: 0.0 + 0.1x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts altitude
+20220315025413: Stored: cubesatsim_pressure: 0.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts pressure
+20220315025413: Stored: cubesatsim_sensor1: 0.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Conversion of Sensor 1
+20220315025413: Stored: cubesatsim_sensor2: -2048.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Conversion of Sensor 2
+20220315025413: Stored: cubesatsim_sensor3: -20.48 + 0.01x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Conversion of Sensor 3
+20220315025413: Stored: cubesatsim_rpm: -204.8 + 0.1x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Conversion of calculated RPM
+20220315025413: Stored: cubesatsim_rssi: -2048.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Conversion of Received Signal Strength
+20220315025413: Loading lookup table: spacecraft\status_on_off.tab
+20220315025413: Stored: Lookup Table: STATUS_ON_OFF
+20220315025413: Loading layout: spacecraft\FOX1A_debug.csv
+20220315025413: Loading layout: spacecraft\CubeSatSim_PSK_maxtelemetry.csv
+20220315025413: Loading layout: spacecraft\CubeSatSim_PSK_rttelemetry.csv
+20220315025413: Loading layout: spacecraft\CubeSatSim_PSK_mintelemetry.csv
+20220315025413: Loading layout: spacecraft\FOX1E_radtelemetry.csv
+20220315025413: Loading layout: spacecraft\FOX1E_radtelemetry2.csv
+20220315025413: Loading layout: spacecraft\CubeSatSim_PSK_wodtelemetry.csv
+20220315025413: Loading layout: spacecraft\FOX1E_wodradtelemetry.csv
+20220315025413: Loading layout: spacecraft\FOX1E_wodradtelemetry2.csv
+20220315025413: Loading lookup table: spacecraft\FOX1A_rssiFM.tab
+20220315025413: Stored: Lookup Table: RSSI
+20220315025413: Loading lookup table: spacecraft\FOX1E_ihuVBattSNx.tab
+20220315025413: Stored: Lookup Table: IHU_VBATT
+20220315025413: Loading lookup table: spacecraft\FOX1A_ihutempSN7.tab
+20220315025413: Stored: Lookup Table: IHU_TEMP
+20220315025413: Loading layout: spacecraft\measurements.csv
+20220315025413: Loading layout: spacecraft\passmeasurements.csv
+20220315025413: TLE file not loaded: spacecraft\FOX99.tle
+20220315025413: Frame Layouts: 5
+ : All WOD : 6 payloads20220315025413: 
+ : Health : 6 payloads20220315025413: 
+ : MinMax : 6 payloads20220315025413: 
+ : Realtime Beacon : 6 payloads20220315025413: 
+ : WOD Beacon : 6 payloads20220315025413: 
+20220315025413: Sources: 1
+20220315025413: amsat.cubesat_simulator.ihu.bpsk
+20220315025413: Loading spacecraft from: FOX1A_fm.dat
+20220315025413: Stored: dummy: 0.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Test curve
+20220315025413: Expression loaded: expression75: " ((4  	- 2^3+1) * -sqrt(3*3+4*4)) / 2"
+20220315025413: Expression loaded: ExpScalarRotation:  sqrt(SatelliteXAxisAngularVelocity*SatelliteXAxisAngularVelocity + SatelliteYAxisAngularVelocity*SatelliteYAxisAngularVelocity + SatelliteZAxisAngularVelocity*SatelliteZAxisAngularVelocity)
+20220315025413: Expression loaded: ExpMemsXRotationAngle:  360 * acos(abs(SatelliteXAxisAngularVelocity / MemsScalarRotation)) / (2 * 3.14159)
+20220315025413: Expression loaded: ExpMemsYRotationAngle:  360 * acos(abs(SatelliteYAxisAngularVelocity / MemsScalarRotation)) / (2 * 3.14159)
+20220315025413: Expression loaded: ExpMemsZRotationAngle:  360 * acos(abs(SatelliteZAxisAngularVelocity / MemsScalarRotation)) / (2 * 3.14159)
+20220315025413: Loading layout: spacecraft\FOX1A_debug.csv
+20220315025413: Loading layout: spacecraft\FOX1A_maxtelemetry.csv
+20220315025413: Loading layout: spacecraft\FOX1A_rttelemetryFM.csv
+20220315025413: Loading layout: spacecraft\FOX1A_mintelemetry.csv
+20220315025413: Loading layout: spacecraft\FOX1A_radtelemetry.csv
+20220315025413: Loading layout: spacecraft\FOX1A_radtelemetry2.csv
+20220315025413: Loading lookup table: spacecraft\FOX1A_rssiFM.tab
+20220315025413: Stored: Lookup Table: RSSI
+20220315025413: Loading lookup table: spacecraft\FOX1A_ihuVBattSN7.tab
+20220315025413: Stored: Lookup Table: IHU_VBATT
+20220315025413: Loading lookup table: spacecraft\FOX1A_ihutempSN7.tab
+20220315025413: Stored: Lookup Table: IHU_TEMP
+20220315025413: Loading layout: spacecraft\measurements.csv
+20220315025413: Loading layout: spacecraft\passmeasurements.csv
+20220315025413: TLE file not loaded: spacecraft\FOX1.tle
+20220315025413: Sources: 2
+20220315025413: amsat.fox-1a.ihu.duv
+20220315025413: amsat.fox-1a.ihu.highspeed
+20220315025413: Loading spacecraft from: FOX1C_fm.dat
+20220315025413: Loading layout: spacecraft\FOX1A_debug.csv
+20220315025413: Loading layout: spacecraft\FOX1C_maxtelemetry.csv
+20220315025413: Loading layout: spacecraft\FOX1C_rttelemetryFM.csv
+20220315025413: Loading layout: spacecraft\FOX1C_mintelemetry.csv
+20220315025413: Loading layout: spacecraft\FOX1C_radtelemetry.csv
+20220315025413: Loading layout: spacecraft\FOX1C_radtelemetry2.csv
+20220315025413: Loading lookup table: spacecraft\FOX1C_rssiFM.tab
+20220315025413: Loading lookup table: spacecraft\FOX1C_ihuVBattSN9.tab
+20220315025413: Loading lookup table: spacecraft\FOX1A_ihutempSN8.tab
+20220315025413: Loading layout: spacecraft\measurements.csv
+20220315025413: Loading layout: spacecraft\passmeasurements.csv
+20220315025413: TLE file not loaded: spacecraft\FOX3.tle
+20220315025413: Sources: 2
+20220315025413: amsat.fox-1c.ihu.duv
+20220315025413: amsat.fox-1c.ihu.highspeed
+20220315025413: Loading spacecraft from: FOX1D_fm.dat
+20220315025413: Loading layout: spacecraft\FOX1A_debug.csv
+20220315025413: Loading layout: spacecraft\FOX1D_maxtelemetry.csv
+20220315025413: Loading layout: spacecraft\FOX1D_rttelemetryFM.csv
+20220315025413: Loading layout: spacecraft\FOX1D_mintelemetry.csv
+20220315025413: Loading layout: spacecraft\FOX1D_radtelemetry.csv
+20220315025413: Loading layout: spacecraft\FOX1D_hercihousekeeping.csv
+20220315025413: Loading layout: spacecraft\FOX1D_hshercitelemetry.csv
+20220315025413: Loading layout: spacecraft\FOX1D_herciScienceTelemHeader.csv
+20220315025413: Loading layout: spacecraft\FOX1D_herciSciencePacket.csv
+20220315025413: Loading lookup table: spacecraft\FOX1D_rssiFM.tab
+20220315025413: Loading lookup table: spacecraft\FOX1D_ihuVBattSN10.tab
+20220315025413: Loading lookup table: spacecraft\FOX1A_ihutempSN8.tab
+20220315025413: Loading layout: spacecraft\measurements.csv
+20220315025413: Loading layout: spacecraft\passmeasurements.csv
+20220315025413: TLE file not loaded: spacecraft\FOX4.tle
+20220315025413: Sources: 2
+20220315025413: amsat.fox-1d.ihu.duv
+20220315025413: amsat.fox-1d.ihu.highspeed
+20220315025413: Loading spacecraft from: FOX1E_fm.dat
+20220315025413: Loading layout: spacecraft\FOX1A_debug.csv
+20220315025413: Loading layout: spacecraft\FOX1E_maxtelemetry.csv
+20220315025413: Loading layout: spacecraft\FOX1E_rttelemetry.csv
+20220315025413: Loading layout: spacecraft\FOX1E_mintelemetry.csv
+20220315025413: Loading layout: spacecraft\FOX1E_radtelemetry.csv
+20220315025413: Loading layout: spacecraft\FOX1E_radtelemetry2.csv
+20220315025413: Loading layout: spacecraft\FOX1E_wodtelemetry.csv
+20220315025413: Loading layout: spacecraft\FOX1E_wodradtelemetry.csv
+20220315025413: Loading layout: spacecraft\FOX1E_wodradtelemetry2.csv
+20220315025413: Loading lookup table: spacecraft\FOX1A_rssiFM.tab
+20220315025413: Loading lookup table: spacecraft\FOX1E_ihuVBattSNx.tab
+20220315025413: Loading lookup table: spacecraft\FOX1A_ihutempSN7.tab
+20220315025413: Loading layout: spacecraft\measurements.csv
+20220315025413: Loading layout: spacecraft\passmeasurements.csv
+20220315025413: TLE file not loaded: spacecraft\FOX5.tle
+20220315025413: Frame Layouts: 5
+ : All WOD : 6 payloads20220315025413: 
+ : Health : 6 payloads20220315025413: 
+ : MinMax : 6 payloads20220315025413: 
+ : Realtime Beacon : 6 payloads20220315025413: 
+ : WOD Beacon : 6 payloads20220315025413: 
+20220315025413: Sources: 1
+20220315025413: amsat.fox-1e.ihu.bpsk
+ : FOX_BPSK20220315025413:  - frame length: 572
+20220315025413:  - data length: 476
+20220315025413:  - header length: 8
+20220315025413:  - trailer length: 96
+20220315025413:  - rs words: 3
+ - padding:  64 64 6520220315025413: 
+20220315025413: Loading spacecraft from: GOLF-T.dat
+20220315025413: Stored: com1_tx_fwd_pwr: -13.019 + 36.436x + -13.107x^2 + 1.7685x^3 + 0.0x^4 + 0.0x^5 Forward power. Apply to the voltage value from the IHU lookup table
+20220315025413: Stored: com1_tx_ref_pwr: -34.583 + 0.1727x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Reflected power. Apply to the voltage value from the IHU lookup table
+20220315025413: Stored: 8_bit_temp: -20.0 + 0.5x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 gtemp RT1Temp and RT2Temp IHU supplies as 7.1 fixed point with offset of 20
+20220315025413: Stored: golf-t_bus_voltage: 0.0 + 0.0399x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 0-255 means 0-13.61V
+20220315025413: Stored: 8_bit_voltage: 0.0 + 0.03026x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 3V Prot 2.5V prot VGA Control and others
+20220315025413: Stored: golf-t_tx_current: 0.0 + 5.725x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Milliamps of Power Amp Current
+20220315025413: Stored: 8_bit_accel: -2.0 + 0.015625x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Gs (range=+/- 2)
+20220315025413: Stored: 8_bit_mag: -76.8 + 0.6x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Microteslas (range = ~ +/- 76.8)
+20220315025413: Stored: 8_bit_spin: -3.9 + 0.0305x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Degrees per second (range=about +/- 46  a should be 3.9)
+20220315025413: Stored: dct_rssi: -255.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Convert 0 to 255 into -256 to 0 for 8 bit unsigned DCT RSSI downlink
+20220315025413: Expression loaded: expression75: " ((4  	- 2^3+1) * -sqrt(3*3+4*4)) / 2"
+20220315025413: Expression loaded: ExpScalarRotation:  sqrt(Xspin*Xspin + Yspin*Yspin + Zspin*Zspin)
+20220315025413: Expression loaded: ExpMemsXRotationAngle:  360 * acos(abs(Xspin / MemsScalarRotation)) / (2 * 3.14159)
+20220315025413: Expression loaded: ExpMemsYRotationAngle:  360 * acos(abs(Yspin / MemsScalarRotation)) / (2 * 3.14159)
+20220315025413: Expression loaded: ExpMemsZRotationAngle:  360 * acos(abs(Zspin / MemsScalarRotation)) / (2 * 3.14159)
+20220315025413: Loading lookup table: spacecraft\status_enabled.tab
+20220315025413: Stored: Lookup Table: STATUS_ENABLED
+20220315025413: Loading lookup table: spacecraft\status_bit.tab
+20220315025413: Stored: Lookup Table: STATUS_BIT
+20220315025413: Loading lookup table: spacecraft\status_boolean.tab
+20220315025413: Stored: Lookup Table: STATUS_BOOLEAN
+20220315025413: Loading lookup table: spacecraft\golf_task_name.tab
+20220315025413: Stored: Lookup Table: GOLF_TASK_NAME
+20220315025413: Loading lookup table: spacecraft\golf_lihu_err.tab
+20220315025413: Stored: Lookup Table: GOLF_LIHU_ERR
+20220315025413: Loading lookup table: spacecraft\golf_rtihu_err.tab
+20220315025413: Stored: Lookup Table: GOLF_RTIHU_ERR
+20220315025413: Loading lookup table: spacecraft\golf_eclipse_action.tab
+20220315025413: Stored: Lookup Table: GOLF_ECLIPSE_ACTION
+20220315025413: Loading layout: spacecraft\FOX1A_debug.csv
+20220315025413: Loading layout: spacecraft\GOLF-T_maxtelemetry.csv
+20220315025413: Loading layout: spacecraft\GOLF-T_rttelemetry.csv
+20220315025413: Loading layout: spacecraft\GOLF-T_mintelemetry.csv
+20220315025413: Loading layout: spacecraft\GOLF-T_radtelemetry.csv
+20220315025413: Loading layout: spacecraft\GOLF-T_radtelemetry2.csv
+20220315025413: Loading layout: spacecraft\GOLF-T_wodradtelemetry.csv
+20220315025413: Loading layout: spacecraft\GOLF-T_wodradtelemetry2.csv
+20220315025413: Loading layout: spacecraft\GOLF-T_wodtelemetry.csv
+20220315025413: Loading layout: spacecraft\GOLF-T_ragtelemetry.csv
+20220315025413: Loading layout: spacecraft\GOLF-T_wodragtelemetry.csv
+20220315025413: Loading layout: spacecraft\GOLF-T_diagnostictelemetry.csv
+20220315025413: Loading lookup table: spacecraft\FOX1A_rssiFM.tab
+20220315025413: Stored: Lookup Table: RSSI
+20220315025413: Loading lookup table: spacecraft\HUSKY_SAT_ihuVBattSN31.tab
+20220315025413: Stored: Lookup Table: IHU_VBATT
+20220315025413: Loading lookup table: spacecraft\HUSKY_SAT_ihutempSN22.tab
+20220315025413: Stored: Lookup Table: IHU_TEMP
+20220315025413: Loading lookup table: spacecraft\HUSKY_isisAntTemp.tab
+20220315025413: Stored: Lookup Table: HUSKY_ISIS_ANT_TEMP
+20220315025413: Loading layout: spacecraft\measurements.csv
+20220315025413: Loading layout: spacecraft\passmeasurements.csv
+20220315025413: TLE file not loaded: spacecraft\FOX8.tle
+20220315025413: Frame Layouts: 9
+ : Realtime 1 : 7 payloads20220315025413: 
+ : Realtime 2 : 7 payloads20220315025413: 
+ : All WOD 1 : 7 payloads20220315025413: 
+ : All WOD 2 : 7 payloads20220315025413: 
+ : All WOD 3 : 7 payloads20220315025413: 
+ : Safe Data 1 : 7 payloads20220315025413: 
+ : Safe Data 2 : 7 payloads20220315025413: 
+ : Safe WOD : 6 payloads20220315025413: 
+ : Diagnostic : 6 payloads20220315025413: 
+20220315025413: Sources: 2
+20220315025413: amsat.golf-t.lihu.bpsk
+ : GOLF_BPSK20220315025413:  - frame length: 765
+20220315025413:  - data length: 669
+20220315025413:  - header length: 12
+20220315025413:  - trailer length: 96
+20220315025413:  - rs words: 3
+ - padding:  0 0 020220315025413: 
+20220315025413: amsat.golf-t.rtihu.bpsk
+ : GOLF_BPSK20220315025413:  - frame length: 765
+20220315025413:  - data length: 669
+20220315025413:  - header length: 12
+20220315025413:  - trailer length: 96
+20220315025413:  - rs words: 3
+ - padding:  0 0 020220315025413: 
+20220315025413: Loading spacecraft from: HUSKY_SAT_fm.dat
+20220315025413: Stored: eps_current: 0.0 + 0.48828125x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Scale the EPS current values 1000/2048
+20220315025413: Stored: eps_node_voltage: 0.0 + 0.004x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Scale the node voltage
+20220315025413: Stored: panel_current: 0.0 + 4.58E-5x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 RC_EPS_GEN Current
+20220315025413: Stored: panel_power: 0.0 + 9.15527E-4x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 RC_EPS_GEN Power
+20220315025413: Stored: panel_temperature: -50.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 PC_EPS_GEN temperature
+20220315025413: Stored: eps_batt_current: 0.0 + 3.051757813x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 EPS BATT Current 1000/327.68
+20220315025413: Stored: com1_wodSize: 0.0 + 4.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 The size of the WOD stored is 4x the downliked value
+20220315025413: Loading layout: spacecraft\FOX1A_debug.csv
+20220315025413: Loading layout: spacecraft\HUSKY_SAT_maxtelemetry.csv
+20220315025413: Loading layout: spacecraft\HUSKY_SAT_rttelemetry.csv
+20220315025413: Loading layout: spacecraft\HUSKY_SAT_mintelemetry.csv
+20220315025413: Loading layout: spacecraft\HUSKY_SAT_exptelemetry.csv
+20220315025413: Loading layout: spacecraft\HUSKY_SAT_wodtelemetry.csv
+20220315025413: Loading layout: spacecraft\HUSKY_SAT_wodexptelemetry.csv
+20220315025413: Loading layout: spacecraft\HUSKY_SAT_CanPacket.csv
+20220315025413: Loading layout: spacecraft\HUSKY_SAT_CanPacket.csv
+20220315025413: Loading lookup table: spacecraft\FOX1A_rssiFM.tab
+20220315025413: Stored: Lookup Table: RSSI
+20220315025413: Loading lookup table: spacecraft\HUSKY_SAT_ihuVBattSN31.tab
+20220315025413: Stored: Lookup Table: IHU_VBATT
+20220315025413: Loading lookup table: spacecraft\HUSKY_SAT_ihutempSN22.tab
+20220315025413: Stored: Lookup Table: IHU_TEMP
+20220315025413: Loading lookup table: spacecraft\HUSKY_isisAntTemp.tab
+20220315025413: Stored: Lookup Table: HUSKY_ISIS_ANT_TEMP
+20220315025413: Loading Can Frames: spacecraft\HuskySat\frames.csv
+20220315025413: Loading 190 CAN Layouts
+20220315025413: Loading layout: spacecraft\HuskySat\mode.csv
+20220315025413: Loading layout: spacecraft\HuskySat\sync_1.csv
+20220315025413: Loading layout: spacecraft\HuskySat\bdot_tumble_status.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_batt_2.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_batt_3.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_batt_5.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_batt_6.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_mtq_2.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_mtq_3.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_mtq_4.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_mtq_5.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_dist_4.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_ppt_h1.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_mtq_h1.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_gen_h1.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_sp_h1.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_h1.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_dist_h1.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_h1.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_batt_h1.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_ppt_h2.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_mtq_h2.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_gen_h2.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_sp_h2.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_h2.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_dist_h2.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_h2.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_batt_h2.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_7.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_8.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_9.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_10.csv
+20220315025413: Loading layout: spacecraft\HuskySat\cmd_reboot_request.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_ppt_halt.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_batt_set_heater_check.csv
+20220315025413: Loading layout: spacecraft\HuskySat\cmd_pd_rst.csv
+20220315025413: Loading layout: spacecraft\HuskySat\cmd_mtq_fsw.csv
+20220315025413: Loading layout: spacecraft\HuskySat\cmd_ignore_fsw.csv
+20220315025413: Loading layout: spacecraft\HuskySat\cmd_ppt_single_fire.csv
+20220315025413: Loading layout: spacecraft\HuskySat\cmd_pd_enable.csv
+20220315025413: Loading layout: spacecraft\HuskySat\cmd_batt_rst.csv
+20220315025413: Loading layout: spacecraft\HuskySat\cmd_batt_bal_enable.csv
+20220315025413: Loading layout: spacecraft\HuskySat\cmd_ppt_time_upd.csv
+20220315025413: Loading layout: spacecraft\HuskySat\cmd_ppt_set_count.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_mtq_pop.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_dist_set_pd_state.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_dist_set_pd_ovc_com1.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_dist_set_pd_ovc_com2.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_dist_set_pd_ovc_rahs.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_dist_set_pd_ovc_bdot.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_dist_set_pd_ovc_estim.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_dist_set_pd_ovc_wheels.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_dist_set_pd_ovc_eps.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_dist_set_pd_ovc_ppt.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_gen_set_pt_state.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_sp_set_thresh.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_bdot_pole_override.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_bdot_mag_control.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_bdot_control.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_bdot_spam.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_bdot_max_tumble.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_mtq_pms.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_reset_minmax.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_eps_batt_fulldef.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_mtq_pwm_time.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_ppt_multiple_fire.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_autosequencer_add_1.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_autosequencer_add_2.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_autosequencer_rm_at_index.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_autosequencer_remove_can_id.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_autosequencer_get_indices.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_autosequencer_get_met.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_dist_self_restart.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_dist_reset_mission.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_dist_autoshutoff.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_batt_set_balancer_auto.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_autoseq_enable.csv
+20220315025413: Loading layout: spacecraft\HuskySat\mpc_vp.csv
+20220315025413: Loading layout: spacecraft\HuskySat\tle_1.csv
+20220315025413: Loading layout: spacecraft\HuskySat\tle_2.csv
+20220315025413: Loading layout: spacecraft\HuskySat\tle_3.csv
+20220315025413: Loading layout: spacecraft\HuskySat\tle_4.csv
+20220315025413: Loading layout: spacecraft\HuskySat\tle_5.csv
+20220315025413: Loading layout: spacecraft\HuskySat\tle_6.csv
+20220315025413: Loading layout: spacecraft\HuskySat\estim_sun_unit_x.csv
+20220315025413: Loading layout: spacecraft\HuskySat\estim_sun_unit_y.csv
+20220315025413: Loading layout: spacecraft\HuskySat\estim_sun_unit_z.csv
+20220315025413: Loading layout: spacecraft\HuskySat\estim_mag_unit_x.csv
+20220315025413: Loading layout: spacecraft\HuskySat\estim_mag_unit_y.csv
+20220315025413: Loading layout: spacecraft\HuskySat\estim_mag_unit_z.csv
+20220315025413: Loading layout: spacecraft\HuskySat\estim_state.csv
+20220315025413: Loading layout: spacecraft\HuskySat\grnd_epoch.csv
+20220315025413: Loading layout: spacecraft\HuskySat\gcmd_com2_run.csv
+20220315025413: Loading layout: spacecraft\HuskySat\sensorproc_sun.csv
+20220315025413: Loading layout: spacecraft\HuskySat\sensorproc_imu.csv
+20220315025413: Loading layout: spacecraft\HuskySat\sensorproc_mag.csv
+20220315025413: Loading layout: spacecraft\HuskySat\cmd_rollcall.csv
+20220315025413: Loading layout: spacecraft\HuskySat\eps_dist_autoseq_get_indices_rsp.csv
+20220315025413: Loading layout: spacecraft\HuskySat\eps_dist_autosequencer_get_met_rsp.csv
+20220315025413: Loading layout: spacecraft\HuskySat\cmd_mtq_bdot.csv
+20220315025413: Loading layout: spacecraft\HuskySat\mtq_ack.csv
+20220315025413: Loading layout: spacecraft\HuskySat\com2_state.csv
+20220315025413: Loading layout: spacecraft\HuskySat\ppt_firing_result.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_batt_4.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_1.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_2.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_ppt_1.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_ppt_2.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_ppt_3.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_gen_1.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_gen_2.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_gen_3.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_gen_4.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_gen_5.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_gen_6.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_gen_7.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_gen_8.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_gen_9.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_3.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_4.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_sp_1.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_sp_2.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_sp_3.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_sp_4.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_sp_5.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_sp_6.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_sp_7.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_sp_8.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_sp_9.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_sp_10.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_sp_11.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_sp_12.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_sp_13.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_sp_14.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_sp_15.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_sp_16.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_sp_17.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_estim_1.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_estim_2.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_estim_3.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_estim_4.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_estim_5.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_estim_6.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_estim_7.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_estim_8.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_1.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_2.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_3.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_4.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_5.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_6.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_7.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_8.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_9.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_10.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_11.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_12.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_13.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_14.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_15.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_dist_2.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_dist_3.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_dist_5.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_dist_6.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_dist_7.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_dist_8.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_dist_9.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_dist_10.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_dist_11.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_dist_12.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_dist_13.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_dist_14.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_dist_15.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_dist_16.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_dist_17.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_estim_9.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_estim_10.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_estim_11.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_estim_12.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_estim_13.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_estim_14.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_batt_7.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_5.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_estim_h1.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_estim_h2.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_6.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_dist_18.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_dist_1.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_batt_1.csv
+20220315025413: Loading layout: spacecraft\HuskySat\rc_eps_gen_10.csv
+20220315025413: Loading layout: spacecraft\measurements.csv
+20220315025413: Loading layout: spacecraft\passmeasurements.csv
+20220315025413: TLE file not loaded: spacecraft\FOX6.tle
+20220315025413: Frame Layouts: 11
+ : All WOD : 6 payloads20220315025413: 
+ : Health : 6 payloads20220315025413: 
+ : MinMax : 6 payloads20220315025413: 
+ : Realtime Beacon : 6 payloads20220315025413: 
+ : WOD Beacon : 6 payloads20220315025413: 
+ : CAN Science : 1 payloads20220315025413: 
+ : CAN Camera : 1 payloads20220315025413: 
+ : WOD CAN : 6 payloads20220315025413: 
+ : BCN WOD CAN1 : 6 payloads20220315025413: 
+ : Health CAN MinMax : 6 payloads20220315025413: 
+ : Health CAN : 6 payloads20220315025413: 
+20220315025413: Sources: 1
+20220315025413: amsat.husky_sat.ihu.bpsk
+ : FOX_BPSK20220315025413:  - frame length: 572
+20220315025413:  - data length: 476
+20220315025413:  - header length: 8
+20220315025413:  - trailer length: 96
+20220315025413:  - rs words: 3
+ - padding:  64 64 6520220315025413: 
+20220315025413: Loading spacecraft from: RadFxSat_fm.dat
+20220315025413: Loading layout: spacecraft\FOX1A_debug.csv
+20220315025413: Loading layout: spacecraft\RadFxSat_maxtelemetry.csv
+20220315025413: Loading layout: spacecraft\RadFxSat_rttelemetry.csv
+20220315025413: Loading layout: spacecraft\RadFxSat_mintelemetry.csv
+20220315025413: Loading layout: spacecraft\RadFxSat_radtelemetry.csv
+20220315025413: Loading layout: spacecraft\RadFxSat_radtelemetry2.csv
+20220315025413: Loading lookup table: spacecraft\RadFxSat_rssiFM.tab
+20220315025413: Loading lookup table: spacecraft\RadFxSat_ihuVBattSN12.tab
+20220315025413: Loading lookup table: spacecraft\RadFxSat_ihutempSN12.tab
+20220315025413: Loading layout: spacecraft\measurements.csv
+20220315025413: Loading layout: spacecraft\passmeasurements.csv
+20220315025413: TLE file not loaded: spacecraft\FOX2.tle
+20220315025413: Sources: 2
+20220315025413: ihu.duv
+20220315025413: ihu.highspeed
+20220315025413: LOADED: FoxTelemServer.properties
+20220315025414: FOX1T0.txt is deleted!
+20220315025414: FOX1T0.txt.tmp is deleted!
+20220315025414: FOX2T0.txt is deleted!
+20220315025414: FOX2T0.txt.tmp is deleted!
+20220315025414: FOX4T0.txt is deleted!
+20220315025414: FOX4T0.txt.tmp is deleted!
+20220315025414: FOX3T0.txt is deleted!
+20220315025414: FOX3T0.txt.tmp is deleted!
+20220315025414: Could not write T0 file: FOX99T0.txt
+20220315025414: Could not write T0 file: FOX7T0.txt
+20220315025414: FOX5T0.txt is deleted!
+20220315025414: FOX5T0.txt.tmp is deleted!
+20220315025414: Could not write T0 file: FOX8T0.txt
+20220315025414: FOX6T0.txt is deleted!
+20220315025414: FOX6T0.txt.tmp is deleted!
+20220315025418: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+20220315025418: ALERT: FATAL: Could not connect to DB
+20220315025808: Starting FoxServer: Version 0.36a - 23 Jan 2021
+20220315025808: Listening on port: 41042
+20220315025808: Loading format from: FOX_BPSK.format
+20220315025808: Loading format from: GOLF_BPSK.format
+20220315025808: Loading layout: spacecraft\GOLF-T_header.csv
+20220315025808: Checking spacecraft file: CubeSat_Simulator_DUV.MASTER
+20220315025808: Leaving existing spacecraft file: CubeSat_Simulator_DUV.dat
+20220315025808: Checking spacecraft file: CubeSat_Simulator_PSK.MASTER
+20220315025808: Leaving existing spacecraft file: CubeSat_Simulator_PSK.dat
+20220315025808: Checking spacecraft file: FOX1A_fm.MASTER
+20220315025808: Leaving existing spacecraft file: FOX1A_fm.dat
+20220315025808: Checking spacecraft file: FOX1C_fm.MASTER
+20220315025808: Leaving existing spacecraft file: FOX1C_fm.dat
+20220315025808: Checking spacecraft file: FOX1D_fm.MASTER
+20220315025808: Leaving existing spacecraft file: FOX1D_fm.dat
+20220315025808: Checking spacecraft file: FOX1E_fm.MASTER
+20220315025808: Leaving existing spacecraft file: FOX1E_fm.dat
+20220315025808: Checking spacecraft file: GOLF-T.MASTER
+20220315025808: Leaving existing spacecraft file: GOLF-T.dat
+20220315025808: Checking spacecraft file: HUSKY_SAT_fm.MASTER
+20220315025808: Leaving existing spacecraft file: HUSKY_SAT_fm.dat
+20220315025808: Checking spacecraft file: RadFxSat_fm.MASTER
+20220315025808: Leaving existing spacecraft file: RadFxSat_fm.dat
+20220315025808: Set Logfile Spacecraft directory to: spacecraft
+20220315025808: Loading spacecraft from: CubeSat_Simulator_DUV.dat
+20220315025808: Stored: cubesatsim_voltage: 0.0 + 0.01x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts voltages read from the INA219 sensors
+20220315025808: Stored: cubesatsim_current: -2048.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts positive and negative currents read from the INA219 sensors
+20220315025808: Stored: cubesatsim_temperature: 0.0 + 0.1x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts temperature of Pi
+20220315025808: Stored: cubesatsim_rotation: -2048.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts positive and negative dps rotation
+20220315025808: Stored: cubesatsim_acceleration: -20.48 + 0.01x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts positive and negative g acceleration
+20220315025808: Stored: cubesatsim_altitude: 0.0 + 0.1x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts altitude
+20220315025808: Stored: cubesatsim_pressure: 0.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts pressure
+20220315025808: Stored: cubesatsim_sensor1: 0.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Conversion of Sensor 1
+20220315025808: Stored: cubesatsim_sensor2: -2048.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Conversion of Sensor 2
+20220315025808: Stored: cubesatsim_sensor3: -20.48 + 0.01x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Conversion of Sensor 3
+20220315025808: Stored: cubesatsim_rpm: -204.8 + 0.1x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Conversion of calculated RPM
+20220315025808: Stored: cubesatsim_rssi: -2048.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Conversion of Received Signal Strength
+20220315025808: Loading lookup table: spacecraft\status_on_off.tab
+20220315025808: Stored: Lookup Table: STATUS_ON_OFF
+20220315025808: Loading layout: spacecraft\FOX1A_debug.csv
+20220315025808: Loading layout: spacecraft\CubeSatSim_maxtelemetry.csv
+20220315025808: Loading layout: spacecraft\CubeSatSim_rttelemetry.csv
+20220315025808: Loading layout: spacecraft\CubeSatSim_mintelemetry.csv
+20220315025808: Loading lookup table: spacecraft\FOX1A_rssiFM.tab
+20220315025808: Stored: Lookup Table: RSSI
+20220315025808: Loading lookup table: spacecraft\FOX1A_ihuVBattSN7.tab
+20220315025808: Stored: Lookup Table: IHU_VBATT
+20220315025808: Loading lookup table: spacecraft\FOX1A_ihutempSN7.tab
+20220315025808: Stored: Lookup Table: IHU_TEMP
+20220315025808: Loading layout: spacecraft\measurements.csv
+20220315025808: Loading layout: spacecraft\passmeasurements.csv
+20220315025808: TLE file not loaded: spacecraft\FOX7.tle
+20220315025808: Sources: 1
+20220315025808: amsat.cubesat_simulator.ihu.duv
+20220315025808: Loading spacecraft from: CubeSat_Simulator_PSK.dat
+20220315025808: Stored: cubesatsim_voltage: 0.0 + 0.01x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts voltages read from the INA219 sensors
+20220315025808: Stored: cubesatsim_current: -2048.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts positive and negative currents read from the INA219 sensors
+20220315025808: Stored: cubesatsim_temperature: 0.0 + 0.1x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts temperature of Pi
+20220315025808: Stored: cubesatsim_rotation: -2048.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts positive and negative dps rotation
+20220315025808: Stored: cubesatsim_acceleration: -20.48 + 0.01x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts positive and negative g acceleration
+20220315025808: Stored: cubesatsim_altitude: 0.0 + 0.1x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts altitude
+20220315025808: Stored: cubesatsim_pressure: 0.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Converts pressure
+20220315025808: Stored: cubesatsim_sensor1: 0.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Conversion of Sensor 1
+20220315025808: Stored: cubesatsim_sensor2: -2048.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Conversion of Sensor 2
+20220315025808: Stored: cubesatsim_sensor3: -20.48 + 0.01x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Conversion of Sensor 3
+20220315025808: Stored: cubesatsim_rpm: -204.8 + 0.1x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Conversion of calculated RPM
+20220315025808: Stored: cubesatsim_rssi: -2048.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Conversion of Received Signal Strength
+20220315025808: Loading lookup table: spacecraft\status_on_off.tab
+20220315025808: Stored: Lookup Table: STATUS_ON_OFF
+20220315025808: Loading layout: spacecraft\FOX1A_debug.csv
+20220315025808: Loading layout: spacecraft\CubeSatSim_PSK_maxtelemetry.csv
+20220315025808: Loading layout: spacecraft\CubeSatSim_PSK_rttelemetry.csv
+20220315025808: Loading layout: spacecraft\CubeSatSim_PSK_mintelemetry.csv
+20220315025808: Loading layout: spacecraft\FOX1E_radtelemetry.csv
+20220315025808: Loading layout: spacecraft\FOX1E_radtelemetry2.csv
+20220315025808: Loading layout: spacecraft\CubeSatSim_PSK_wodtelemetry.csv
+20220315025808: Loading layout: spacecraft\FOX1E_wodradtelemetry.csv
+20220315025808: Loading layout: spacecraft\FOX1E_wodradtelemetry2.csv
+20220315025808: Loading lookup table: spacecraft\FOX1A_rssiFM.tab
+20220315025808: Stored: Lookup Table: RSSI
+20220315025808: Loading lookup table: spacecraft\FOX1E_ihuVBattSNx.tab
+20220315025808: Stored: Lookup Table: IHU_VBATT
+20220315025808: Loading lookup table: spacecraft\FOX1A_ihutempSN7.tab
+20220315025808: Stored: Lookup Table: IHU_TEMP
+20220315025808: Loading layout: spacecraft\measurements.csv
+20220315025808: Loading layout: spacecraft\passmeasurements.csv
+20220315025808: TLE file not loaded: spacecraft\FOX99.tle
+20220315025808: Frame Layouts: 5
+ : All WOD : 6 payloads20220315025808: 
+ : Health : 6 payloads20220315025808: 
+ : MinMax : 6 payloads20220315025808: 
+ : Realtime Beacon : 6 payloads20220315025808: 
+ : WOD Beacon : 6 payloads20220315025808: 
+20220315025808: Sources: 1
+20220315025808: amsat.cubesat_simulator.ihu.bpsk
+20220315025808: Loading spacecraft from: FOX1A_fm.dat
+20220315025808: Stored: dummy: 0.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Test curve
+20220315025808: Expression loaded: expression75: " ((4  	- 2^3+1) * -sqrt(3*3+4*4)) / 2"
+20220315025808: Expression loaded: ExpScalarRotation:  sqrt(SatelliteXAxisAngularVelocity*SatelliteXAxisAngularVelocity + SatelliteYAxisAngularVelocity*SatelliteYAxisAngularVelocity + SatelliteZAxisAngularVelocity*SatelliteZAxisAngularVelocity)
+20220315025808: Expression loaded: ExpMemsXRotationAngle:  360 * acos(abs(SatelliteXAxisAngularVelocity / MemsScalarRotation)) / (2 * 3.14159)
+20220315025808: Expression loaded: ExpMemsYRotationAngle:  360 * acos(abs(SatelliteYAxisAngularVelocity / MemsScalarRotation)) / (2 * 3.14159)
+20220315025808: Expression loaded: ExpMemsZRotationAngle:  360 * acos(abs(SatelliteZAxisAngularVelocity / MemsScalarRotation)) / (2 * 3.14159)
+20220315025808: Loading layout: spacecraft\FOX1A_debug.csv
+20220315025808: Loading layout: spacecraft\FOX1A_maxtelemetry.csv
+20220315025808: Loading layout: spacecraft\FOX1A_rttelemetryFM.csv
+20220315025808: Loading layout: spacecraft\FOX1A_mintelemetry.csv
+20220315025808: Loading layout: spacecraft\FOX1A_radtelemetry.csv
+20220315025808: Loading layout: spacecraft\FOX1A_radtelemetry2.csv
+20220315025808: Loading lookup table: spacecraft\FOX1A_rssiFM.tab
+20220315025808: Stored: Lookup Table: RSSI
+20220315025808: Loading lookup table: spacecraft\FOX1A_ihuVBattSN7.tab
+20220315025808: Stored: Lookup Table: IHU_VBATT
+20220315025808: Loading lookup table: spacecraft\FOX1A_ihutempSN7.tab
+20220315025808: Stored: Lookup Table: IHU_TEMP
+20220315025808: Loading layout: spacecraft\measurements.csv
+20220315025808: Loading layout: spacecraft\passmeasurements.csv
+20220315025808: TLE file not loaded: spacecraft\FOX1.tle
+20220315025808: Sources: 2
+20220315025808: amsat.fox-1a.ihu.duv
+20220315025808: amsat.fox-1a.ihu.highspeed
+20220315025808: Loading spacecraft from: FOX1C_fm.dat
+20220315025808: Loading layout: spacecraft\FOX1A_debug.csv
+20220315025808: Loading layout: spacecraft\FOX1C_maxtelemetry.csv
+20220315025808: Loading layout: spacecraft\FOX1C_rttelemetryFM.csv
+20220315025808: Loading layout: spacecraft\FOX1C_mintelemetry.csv
+20220315025808: Loading layout: spacecraft\FOX1C_radtelemetry.csv
+20220315025808: Loading layout: spacecraft\FOX1C_radtelemetry2.csv
+20220315025808: Loading lookup table: spacecraft\FOX1C_rssiFM.tab
+20220315025808: Loading lookup table: spacecraft\FOX1C_ihuVBattSN9.tab
+20220315025808: Loading lookup table: spacecraft\FOX1A_ihutempSN8.tab
+20220315025808: Loading layout: spacecraft\measurements.csv
+20220315025808: Loading layout: spacecraft\passmeasurements.csv
+20220315025808: TLE file not loaded: spacecraft\FOX3.tle
+20220315025808: Sources: 2
+20220315025808: amsat.fox-1c.ihu.duv
+20220315025808: amsat.fox-1c.ihu.highspeed
+20220315025808: Loading spacecraft from: FOX1D_fm.dat
+20220315025808: Loading layout: spacecraft\FOX1A_debug.csv
+20220315025808: Loading layout: spacecraft\FOX1D_maxtelemetry.csv
+20220315025808: Loading layout: spacecraft\FOX1D_rttelemetryFM.csv
+20220315025808: Loading layout: spacecraft\FOX1D_mintelemetry.csv
+20220315025808: Loading layout: spacecraft\FOX1D_radtelemetry.csv
+20220315025808: Loading layout: spacecraft\FOX1D_hercihousekeeping.csv
+20220315025808: Loading layout: spacecraft\FOX1D_hshercitelemetry.csv
+20220315025808: Loading layout: spacecraft\FOX1D_herciScienceTelemHeader.csv
+20220315025808: Loading layout: spacecraft\FOX1D_herciSciencePacket.csv
+20220315025808: Loading lookup table: spacecraft\FOX1D_rssiFM.tab
+20220315025808: Loading lookup table: spacecraft\FOX1D_ihuVBattSN10.tab
+20220315025808: Loading lookup table: spacecraft\FOX1A_ihutempSN8.tab
+20220315025808: Loading layout: spacecraft\measurements.csv
+20220315025808: Loading layout: spacecraft\passmeasurements.csv
+20220315025808: TLE file not loaded: spacecraft\FOX4.tle
+20220315025808: Sources: 2
+20220315025808: amsat.fox-1d.ihu.duv
+20220315025808: amsat.fox-1d.ihu.highspeed
+20220315025808: Loading spacecraft from: FOX1E_fm.dat
+20220315025808: Loading layout: spacecraft\FOX1A_debug.csv
+20220315025808: Loading layout: spacecraft\FOX1E_maxtelemetry.csv
+20220315025808: Loading layout: spacecraft\FOX1E_rttelemetry.csv
+20220315025808: Loading layout: spacecraft\FOX1E_mintelemetry.csv
+20220315025808: Loading layout: spacecraft\FOX1E_radtelemetry.csv
+20220315025808: Loading layout: spacecraft\FOX1E_radtelemetry2.csv
+20220315025808: Loading layout: spacecraft\FOX1E_wodtelemetry.csv
+20220315025808: Loading layout: spacecraft\FOX1E_wodradtelemetry.csv
+20220315025808: Loading layout: spacecraft\FOX1E_wodradtelemetry2.csv
+20220315025808: Loading lookup table: spacecraft\FOX1A_rssiFM.tab
+20220315025808: Loading lookup table: spacecraft\FOX1E_ihuVBattSNx.tab
+20220315025808: Loading lookup table: spacecraft\FOX1A_ihutempSN7.tab
+20220315025808: Loading layout: spacecraft\measurements.csv
+20220315025808: Loading layout: spacecraft\passmeasurements.csv
+20220315025808: TLE file not loaded: spacecraft\FOX5.tle
+20220315025808: Frame Layouts: 5
+ : All WOD : 6 payloads20220315025808: 
+ : Health : 6 payloads20220315025808: 
+ : MinMax : 6 payloads20220315025808: 
+ : Realtime Beacon : 6 payloads20220315025808: 
+ : WOD Beacon : 6 payloads20220315025808: 
+20220315025808: Sources: 1
+20220315025808: amsat.fox-1e.ihu.bpsk
+ : FOX_BPSK20220315025808:  - frame length: 572
+20220315025808:  - data length: 476
+20220315025808:  - header length: 8
+20220315025808:  - trailer length: 96
+20220315025808:  - rs words: 3
+ - padding:  64 64 6520220315025808: 
+20220315025808: Loading spacecraft from: GOLF-T.dat
+20220315025808: Stored: com1_tx_fwd_pwr: -13.019 + 36.436x + -13.107x^2 + 1.7685x^3 + 0.0x^4 + 0.0x^5 Forward power. Apply to the voltage value from the IHU lookup table
+20220315025808: Stored: com1_tx_ref_pwr: -34.583 + 0.1727x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Reflected power. Apply to the voltage value from the IHU lookup table
+20220315025808: Stored: 8_bit_temp: -20.0 + 0.5x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 gtemp RT1Temp and RT2Temp IHU supplies as 7.1 fixed point with offset of 20
+20220315025808: Stored: golf-t_bus_voltage: 0.0 + 0.0399x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 0-255 means 0-13.61V
+20220315025808: Stored: 8_bit_voltage: 0.0 + 0.03026x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 3V Prot 2.5V prot VGA Control and others
+20220315025808: Stored: golf-t_tx_current: 0.0 + 5.725x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Milliamps of Power Amp Current
+20220315025808: Stored: 8_bit_accel: -2.0 + 0.015625x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Gs (range=+/- 2)
+20220315025808: Stored: 8_bit_mag: -76.8 + 0.6x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Microteslas (range = ~ +/- 76.8)
+20220315025808: Stored: 8_bit_spin: -3.9 + 0.0305x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Degrees per second (range=about +/- 46  a should be 3.9)
+20220315025808: Stored: dct_rssi: -255.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Convert 0 to 255 into -256 to 0 for 8 bit unsigned DCT RSSI downlink
+20220315025808: Expression loaded: expression75: " ((4  	- 2^3+1) * -sqrt(3*3+4*4)) / 2"
+20220315025808: Expression loaded: ExpScalarRotation:  sqrt(Xspin*Xspin + Yspin*Yspin + Zspin*Zspin)
+20220315025808: Expression loaded: ExpMemsXRotationAngle:  360 * acos(abs(Xspin / MemsScalarRotation)) / (2 * 3.14159)
+20220315025808: Expression loaded: ExpMemsYRotationAngle:  360 * acos(abs(Yspin / MemsScalarRotation)) / (2 * 3.14159)
+20220315025808: Expression loaded: ExpMemsZRotationAngle:  360 * acos(abs(Zspin / MemsScalarRotation)) / (2 * 3.14159)
+20220315025808: Loading lookup table: spacecraft\status_enabled.tab
+20220315025808: Stored: Lookup Table: STATUS_ENABLED
+20220315025808: Loading lookup table: spacecraft\status_bit.tab
+20220315025808: Stored: Lookup Table: STATUS_BIT
+20220315025808: Loading lookup table: spacecraft\status_boolean.tab
+20220315025808: Stored: Lookup Table: STATUS_BOOLEAN
+20220315025808: Loading lookup table: spacecraft\golf_task_name.tab
+20220315025808: Stored: Lookup Table: GOLF_TASK_NAME
+20220315025808: Loading lookup table: spacecraft\golf_lihu_err.tab
+20220315025808: Stored: Lookup Table: GOLF_LIHU_ERR
+20220315025808: Loading lookup table: spacecraft\golf_rtihu_err.tab
+20220315025808: Stored: Lookup Table: GOLF_RTIHU_ERR
+20220315025808: Loading lookup table: spacecraft\golf_eclipse_action.tab
+20220315025808: Stored: Lookup Table: GOLF_ECLIPSE_ACTION
+20220315025808: Loading layout: spacecraft\FOX1A_debug.csv
+20220315025808: Loading layout: spacecraft\GOLF-T_maxtelemetry.csv
+20220315025808: Loading layout: spacecraft\GOLF-T_rttelemetry.csv
+20220315025808: Loading layout: spacecraft\GOLF-T_mintelemetry.csv
+20220315025808: Loading layout: spacecraft\GOLF-T_radtelemetry.csv
+20220315025808: Loading layout: spacecraft\GOLF-T_radtelemetry2.csv
+20220315025808: Loading layout: spacecraft\GOLF-T_wodradtelemetry.csv
+20220315025808: Loading layout: spacecraft\GOLF-T_wodradtelemetry2.csv
+20220315025808: Loading layout: spacecraft\GOLF-T_wodtelemetry.csv
+20220315025808: Loading layout: spacecraft\GOLF-T_ragtelemetry.csv
+20220315025808: Loading layout: spacecraft\GOLF-T_wodragtelemetry.csv
+20220315025808: Loading layout: spacecraft\GOLF-T_diagnostictelemetry.csv
+20220315025808: Loading lookup table: spacecraft\FOX1A_rssiFM.tab
+20220315025808: Stored: Lookup Table: RSSI
+20220315025808: Loading lookup table: spacecraft\HUSKY_SAT_ihuVBattSN31.tab
+20220315025808: Stored: Lookup Table: IHU_VBATT
+20220315025808: Loading lookup table: spacecraft\HUSKY_SAT_ihutempSN22.tab
+20220315025808: Stored: Lookup Table: IHU_TEMP
+20220315025808: Loading lookup table: spacecraft\HUSKY_isisAntTemp.tab
+20220315025808: Stored: Lookup Table: HUSKY_ISIS_ANT_TEMP
+20220315025808: Loading layout: spacecraft\measurements.csv
+20220315025808: Loading layout: spacecraft\passmeasurements.csv
+20220315025808: TLE file not loaded: spacecraft\FOX8.tle
+20220315025808: Frame Layouts: 9
+ : Realtime 1 : 7 payloads20220315025808: 
+ : Realtime 2 : 7 payloads20220315025808: 
+ : All WOD 1 : 7 payloads20220315025808: 
+ : All WOD 2 : 7 payloads20220315025808: 
+ : All WOD 3 : 7 payloads20220315025808: 
+ : Safe Data 1 : 7 payloads20220315025808: 
+ : Safe Data 2 : 7 payloads20220315025808: 
+ : Safe WOD : 6 payloads20220315025808: 
+ : Diagnostic : 6 payloads20220315025808: 
+20220315025808: Sources: 2
+20220315025808: amsat.golf-t.lihu.bpsk
+ : GOLF_BPSK20220315025808:  - frame length: 765
+20220315025808:  - data length: 669
+20220315025808:  - header length: 12
+20220315025808:  - trailer length: 96
+20220315025808:  - rs words: 3
+ - padding:  0 0 020220315025808: 
+20220315025808: amsat.golf-t.rtihu.bpsk
+ : GOLF_BPSK20220315025808:  - frame length: 765
+20220315025808:  - data length: 669
+20220315025808:  - header length: 12
+20220315025808:  - trailer length: 96
+20220315025808:  - rs words: 3
+ - padding:  0 0 020220315025808: 
+20220315025808: Loading spacecraft from: HUSKY_SAT_fm.dat
+20220315025808: Stored: eps_current: 0.0 + 0.48828125x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Scale the EPS current values 1000/2048
+20220315025808: Stored: eps_node_voltage: 0.0 + 0.004x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 Scale the node voltage
+20220315025808: Stored: panel_current: 0.0 + 4.58E-5x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 RC_EPS_GEN Current
+20220315025808: Stored: panel_power: 0.0 + 9.15527E-4x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 RC_EPS_GEN Power
+20220315025808: Stored: panel_temperature: -50.0 + 1.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 PC_EPS_GEN temperature
+20220315025808: Stored: eps_batt_current: 0.0 + 3.051757813x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 EPS BATT Current 1000/327.68
+20220315025808: Stored: com1_wodSize: 0.0 + 4.0x + 0.0x^2 + 0.0x^3 + 0.0x^4 + 0.0x^5 The size of the WOD stored is 4x the downliked value
+20220315025808: Loading layout: spacecraft\FOX1A_debug.csv
+20220315025808: Loading layout: spacecraft\HUSKY_SAT_maxtelemetry.csv
+20220315025808: Loading layout: spacecraft\HUSKY_SAT_rttelemetry.csv
+20220315025808: Loading layout: spacecraft\HUSKY_SAT_mintelemetry.csv
+20220315025808: Loading layout: spacecraft\HUSKY_SAT_exptelemetry.csv
+20220315025808: Loading layout: spacecraft\HUSKY_SAT_wodtelemetry.csv
+20220315025808: Loading layout: spacecraft\HUSKY_SAT_wodexptelemetry.csv
+20220315025808: Loading layout: spacecraft\HUSKY_SAT_CanPacket.csv
+20220315025808: Loading layout: spacecraft\HUSKY_SAT_CanPacket.csv
+20220315025808: Loading lookup table: spacecraft\FOX1A_rssiFM.tab
+20220315025808: Stored: Lookup Table: RSSI
+20220315025808: Loading lookup table: spacecraft\HUSKY_SAT_ihuVBattSN31.tab
+20220315025808: Stored: Lookup Table: IHU_VBATT
+20220315025808: Loading lookup table: spacecraft\HUSKY_SAT_ihutempSN22.tab
+20220315025808: Stored: Lookup Table: IHU_TEMP
+20220315025808: Loading lookup table: spacecraft\HUSKY_isisAntTemp.tab
+20220315025808: Stored: Lookup Table: HUSKY_ISIS_ANT_TEMP
+20220315025808: Loading Can Frames: spacecraft\HuskySat\frames.csv
+20220315025808: Loading 190 CAN Layouts
+20220315025808: Loading layout: spacecraft\HuskySat\mode.csv
+20220315025808: Loading layout: spacecraft\HuskySat\sync_1.csv
+20220315025808: Loading layout: spacecraft\HuskySat\bdot_tumble_status.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_batt_2.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_batt_3.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_batt_5.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_batt_6.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_mtq_2.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_mtq_3.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_mtq_4.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_mtq_5.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_dist_4.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_ppt_h1.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_mtq_h1.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_gen_h1.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_sp_h1.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_h1.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_dist_h1.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_h1.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_batt_h1.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_ppt_h2.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_mtq_h2.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_gen_h2.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_sp_h2.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_h2.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_dist_h2.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_h2.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_batt_h2.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_7.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_8.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_9.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_10.csv
+20220315025808: Loading layout: spacecraft\HuskySat\cmd_reboot_request.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_ppt_halt.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_batt_set_heater_check.csv
+20220315025808: Loading layout: spacecraft\HuskySat\cmd_pd_rst.csv
+20220315025808: Loading layout: spacecraft\HuskySat\cmd_mtq_fsw.csv
+20220315025808: Loading layout: spacecraft\HuskySat\cmd_ignore_fsw.csv
+20220315025808: Loading layout: spacecraft\HuskySat\cmd_ppt_single_fire.csv
+20220315025808: Loading layout: spacecraft\HuskySat\cmd_pd_enable.csv
+20220315025808: Loading layout: spacecraft\HuskySat\cmd_batt_rst.csv
+20220315025808: Loading layout: spacecraft\HuskySat\cmd_batt_bal_enable.csv
+20220315025808: Loading layout: spacecraft\HuskySat\cmd_ppt_time_upd.csv
+20220315025808: Loading layout: spacecraft\HuskySat\cmd_ppt_set_count.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_mtq_pop.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_dist_set_pd_state.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_dist_set_pd_ovc_com1.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_dist_set_pd_ovc_com2.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_dist_set_pd_ovc_rahs.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_dist_set_pd_ovc_bdot.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_dist_set_pd_ovc_estim.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_dist_set_pd_ovc_wheels.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_dist_set_pd_ovc_eps.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_dist_set_pd_ovc_ppt.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_gen_set_pt_state.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_sp_set_thresh.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_bdot_pole_override.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_bdot_mag_control.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_bdot_control.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_bdot_spam.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_bdot_max_tumble.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_mtq_pms.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_reset_minmax.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_eps_batt_fulldef.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_mtq_pwm_time.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_ppt_multiple_fire.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_autosequencer_add_1.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_autosequencer_add_2.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_autosequencer_rm_at_index.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_autosequencer_remove_can_id.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_autosequencer_get_indices.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_autosequencer_get_met.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_dist_self_restart.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_dist_reset_mission.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_dist_autoshutoff.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_batt_set_balancer_auto.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_autoseq_enable.csv
+20220315025808: Loading layout: spacecraft\HuskySat\mpc_vp.csv
+20220315025808: Loading layout: spacecraft\HuskySat\tle_1.csv
+20220315025808: Loading layout: spacecraft\HuskySat\tle_2.csv
+20220315025808: Loading layout: spacecraft\HuskySat\tle_3.csv
+20220315025808: Loading layout: spacecraft\HuskySat\tle_4.csv
+20220315025808: Loading layout: spacecraft\HuskySat\tle_5.csv
+20220315025808: Loading layout: spacecraft\HuskySat\tle_6.csv
+20220315025808: Loading layout: spacecraft\HuskySat\estim_sun_unit_x.csv
+20220315025808: Loading layout: spacecraft\HuskySat\estim_sun_unit_y.csv
+20220315025808: Loading layout: spacecraft\HuskySat\estim_sun_unit_z.csv
+20220315025808: Loading layout: spacecraft\HuskySat\estim_mag_unit_x.csv
+20220315025808: Loading layout: spacecraft\HuskySat\estim_mag_unit_y.csv
+20220315025808: Loading layout: spacecraft\HuskySat\estim_mag_unit_z.csv
+20220315025808: Loading layout: spacecraft\HuskySat\estim_state.csv
+20220315025808: Loading layout: spacecraft\HuskySat\grnd_epoch.csv
+20220315025808: Loading layout: spacecraft\HuskySat\gcmd_com2_run.csv
+20220315025808: Loading layout: spacecraft\HuskySat\sensorproc_sun.csv
+20220315025808: Loading layout: spacecraft\HuskySat\sensorproc_imu.csv
+20220315025808: Loading layout: spacecraft\HuskySat\sensorproc_mag.csv
+20220315025808: Loading layout: spacecraft\HuskySat\cmd_rollcall.csv
+20220315025808: Loading layout: spacecraft\HuskySat\eps_dist_autoseq_get_indices_rsp.csv
+20220315025808: Loading layout: spacecraft\HuskySat\eps_dist_autosequencer_get_met_rsp.csv
+20220315025808: Loading layout: spacecraft\HuskySat\cmd_mtq_bdot.csv
+20220315025808: Loading layout: spacecraft\HuskySat\mtq_ack.csv
+20220315025808: Loading layout: spacecraft\HuskySat\com2_state.csv
+20220315025808: Loading layout: spacecraft\HuskySat\ppt_firing_result.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_batt_4.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_1.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_2.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_ppt_1.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_ppt_2.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_ppt_3.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_gen_1.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_gen_2.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_gen_3.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_gen_4.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_gen_5.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_gen_6.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_gen_7.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_gen_8.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_gen_9.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_3.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_4.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_sp_1.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_sp_2.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_sp_3.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_sp_4.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_sp_5.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_sp_6.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_sp_7.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_sp_8.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_sp_9.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_sp_10.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_sp_11.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_sp_12.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_sp_13.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_sp_14.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_sp_15.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_sp_16.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_sp_17.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_estim_1.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_estim_2.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_estim_3.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_estim_4.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_estim_5.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_estim_6.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_estim_7.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_estim_8.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_1.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_2.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_3.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_4.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_5.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_6.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_7.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_8.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_9.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_10.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_11.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_12.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_13.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_14.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_mpc_15.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_dist_2.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_dist_3.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_dist_5.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_dist_6.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_dist_7.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_dist_8.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_dist_9.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_dist_10.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_dist_11.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_dist_12.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_dist_13.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_dist_14.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_dist_15.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_dist_16.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_dist_17.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_estim_9.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_estim_10.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_estim_11.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_estim_12.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_estim_13.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_estim_14.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_batt_7.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_5.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_estim_h1.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_estim_h2.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_adcs_bdot_6.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_dist_18.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_dist_1.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_batt_1.csv
+20220315025808: Loading layout: spacecraft\HuskySat\rc_eps_gen_10.csv
+20220315025808: Loading layout: spacecraft\measurements.csv
+20220315025808: Loading layout: spacecraft\passmeasurements.csv
+20220315025808: TLE file not loaded: spacecraft\FOX6.tle
+20220315025808: Frame Layouts: 11
+ : All WOD : 6 payloads20220315025808: 
+ : Health : 6 payloads20220315025808: 
+ : MinMax : 6 payloads20220315025808: 
+ : Realtime Beacon : 6 payloads20220315025808: 
+ : WOD Beacon : 6 payloads20220315025808: 
+ : CAN Science : 1 payloads20220315025808: 
+ : CAN Camera : 1 payloads20220315025808: 
+ : WOD CAN : 6 payloads20220315025808: 
+ : BCN WOD CAN1 : 6 payloads20220315025808: 
+ : Health CAN MinMax : 6 payloads20220315025808: 
+ : Health CAN : 6 payloads20220315025808: 
+20220315025808: Sources: 1
+20220315025808: amsat.husky_sat.ihu.bpsk
+ : FOX_BPSK20220315025808:  - frame length: 572
+20220315025808:  - data length: 476
+20220315025808:  - header length: 8
+20220315025808:  - trailer length: 96
+20220315025808:  - rs words: 3
+ - padding:  64 64 6520220315025808: 
+20220315025808: Loading spacecraft from: RadFxSat_fm.dat
+20220315025808: Loading layout: spacecraft\FOX1A_debug.csv
+20220315025808: Loading layout: spacecraft\RadFxSat_maxtelemetry.csv
+20220315025808: Loading layout: spacecraft\RadFxSat_rttelemetry.csv
+20220315025808: Loading layout: spacecraft\RadFxSat_mintelemetry.csv
+20220315025808: Loading layout: spacecraft\RadFxSat_radtelemetry.csv
+20220315025808: Loading layout: spacecraft\RadFxSat_radtelemetry2.csv
+20220315025808: Loading lookup table: spacecraft\RadFxSat_rssiFM.tab
+20220315025808: Loading lookup table: spacecraft\RadFxSat_ihuVBattSN12.tab
+20220315025808: Loading lookup table: spacecraft\RadFxSat_ihutempSN12.tab
+20220315025808: Loading layout: spacecraft\measurements.csv
+20220315025808: Loading layout: spacecraft\passmeasurements.csv
+20220315025808: TLE file not loaded: spacecraft\FOX2.tle
+20220315025808: Sources: 2
+20220315025808: ihu.duv
+20220315025808: ihu.highspeed
+20220315025808: LOADED: FoxTelemServer.properties
+20220315025808: FOX1T0.txt is deleted!
+20220315025808: FOX1T0.txt.tmp is deleted!
+20220315025808: FOX2T0.txt is deleted!
+20220315025808: FOX2T0.txt.tmp is deleted!
+20220315025808: FOX4T0.txt is deleted!
+20220315025808: FOX4T0.txt.tmp is deleted!
+20220315025808: FOX3T0.txt is deleted!
+20220315025808: FOX3T0.txt.tmp is deleted!
+20220315025808: Could not write T0 file: FOX99T0.txt
+20220315025808: Could not write T0 file: FOX7T0.txt
+20220315025809: FOX5T0.txt is deleted!
+20220315025809: FOX5T0.txt.tmp is deleted!
+20220315025809: Could not write T0 file: FOX8T0.txt
+20220315025809: FOX6T0.txt is deleted!
+20220315025809: FOX6T0.txt.tmp is deleted!
+20220315025812: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+20220315025812: ALERT: FATAL: Could not connect to DB
