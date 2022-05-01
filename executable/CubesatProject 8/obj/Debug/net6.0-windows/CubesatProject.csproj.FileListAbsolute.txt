@@ -1,0 +1,14 @@
+C:\Users\tryst\Desktop\CubesatProject 6\obj\Debug\net6.0-windows\CubesatProject.csproj.AssemblyReference.cache
+C:\Users\tryst\Desktop\CubesatProject 6\obj\Debug\net6.0-windows\CubesatProject.LoginPage.resources
+C:\Users\tryst\Desktop\CubesatProject 6\obj\Debug\net6.0-windows\CubesatProject.mainPage.resources
+C:\Users\tryst\Desktop\CubesatProject 6\obj\Debug\net6.0-windows\CubesatProject.settingsPage.resources
+C:\Users\tryst\Desktop\CubesatProject 6\obj\Debug\net6.0-windows\CubesatProject.registrationForm.resources
+C:\Users\tryst\Desktop\CubesatProject 6\obj\Debug\net6.0-windows\CubesatProject.mainUserControl.resources
+C:\Users\tryst\Desktop\CubesatProject 6\obj\Debug\net6.0-windows\CubesatProject.aboutUsPage.resources
+C:\Users\tryst\Desktop\CubesatProject 6\obj\Debug\net6.0-windows\CubesatProject.emailChange.resources
+C:\Users\tryst\Desktop\CubesatProject 6\obj\Debug\net6.0-windows\CubesatProject.passwordChange.resources
+C:\Users\tryst\Desktop\CubesatProject 6\obj\Debug\net6.0-windows\CubesatProject.csproj.GenerateResource.cache
+C:\Users\tryst\Desktop\CubesatProject 6\obj\Debug\net6.0-windows\CubesatProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tryst\Desktop\CubesatProject 6\obj\Debug\net6.0-windows\CubesatProject.AssemblyInfoInputs.cache
+C:\Users\tryst\Desktop\CubesatProject 6\obj\Debug\net6.0-windows\CubesatProject.AssemblyInfo.cs
+C:\Users\tryst\Desktop\CubesatProject 6\obj\Debug\net6.0-windows\CubesatProject.csproj.CoreCompileInputs.cache
